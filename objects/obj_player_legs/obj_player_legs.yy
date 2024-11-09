@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_legs",
-    "path":"sprites/spr_legs/spr_legs.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

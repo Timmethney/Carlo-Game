@@ -18,5 +18,8 @@ stateDash = function(){
 PlayerStateDash()
 }
 
-state = stateFree;
+stateAttack = function(){
+PlayerStateAttack()	
+}
 
+state = stateFree;
