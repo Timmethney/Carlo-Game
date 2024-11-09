@@ -1,13 +1,8 @@
 //Player inputs
-key_right = keyboard_check(vk_right);
-key_left = keyboard_check(vk_left);
-key_jump = keyboard_check(vk_space);
-key_up = keyboard_check(vk_up)
-key_down = keyboard_check(vk_down)
-key_dash = keyboard_check(vk_shift);
+scr_player_inputs()
 
 
-state();
+state()
 
 //Movement animations
 if (!place_meeting(x, y+1, obj_block)){
@@ -30,6 +25,6 @@ if (!place_meeting(x, y+1, obj_block)){
 
 if (xsp !=0) image_xscale = sign(xsp) * 2;
 
-if (key_dash && dash_energy > 0){
+if (key_dash && dash_energy > 25){
 	sprite_index = spr_player_dash;
 }

@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script1",
+  "%Name":"PlayerStateDash",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script1",
+  "name":"PlayerStateDash",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"State Machines",
+    "path":"folders/Scripts/State Machines.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
