@@ -1,4 +1,4 @@
-function scr_dash_inputAndCd(){
+function scr_dash_input(){
 //Dash input
 if (can_dash) && (key_dash){
 	can_dash = false;

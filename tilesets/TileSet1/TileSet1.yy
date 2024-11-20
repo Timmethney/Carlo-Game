@@ -1,19 +1,16 @@
 {
   "$GMTileSet":"v1",
   "%Name":"TileSet1",
-  "autoTileSets":[
-    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
-        0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-      ],},
-  ],
+  "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":4,
+    "SerialiseWidth":5,
+    "TileCompressedData":[-11,0,-3,69,-2,0,-3,86,1,0,],
+    "TileDataFormat":1,
   },
   "name":"TileSet1",
-  "out_columns":8,
-  "out_tilehborder":2,
+  "out_columns":11,
+  "out_tilehborder":0,
   "out_tilevborder":2,
   "parent":{
     "name":"Tile Sets",
@@ -32,11 +29,11 @@
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
-  "tileHeight":160,
+  "tileHeight":83,
   "tilehsep":0,
   "tilevsep":0,
-  "tileWidth":160,
-  "tilexoff":0,
-  "tileyoff":0,
-  "tile_count":60,
+  "tileWidth":83,
+  "tilexoff":46,
+  "tileyoff":82,
+  "tile_count":119,
 }
