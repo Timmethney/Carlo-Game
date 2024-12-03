@@ -9,7 +9,7 @@
     "TileDataFormat":1,
   },
   "name":"TileSet",
-  "out_columns":11,
+  "out_columns":16,
   "out_tilehborder":0,
   "out_tilevborder":2,
   "parent":{
@@ -33,7 +33,7 @@
   "tilehsep":0,
   "tilevsep":0,
   "tileWidth":83,
-  "tilexoff":46,
-  "tileyoff":82,
-  "tile_count":119,
+  "tilexoff":38,
+  "tileyoff":73,
+  "tile_count":252,
 }
