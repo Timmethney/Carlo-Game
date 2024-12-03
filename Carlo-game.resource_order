@@ -13,6 +13,7 @@
     {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
+    {"name":"Backgrounds","order":6,"path":"folders/Sprites/Backgrounds.yy",},
     {"name":"Legs","order":1,"path":"folders/Sprites/Player sprites/Legs.yy",},
     {"name":"Upper Body","order":3,"path":"folders/Sprites/Player sprites/Upper Body.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},

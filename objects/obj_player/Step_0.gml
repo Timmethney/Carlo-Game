@@ -1,7 +1,7 @@
 //Player inputs
 scr_player_inputs()
 
-
+//State function
 state()
 
 //Movement animations
