@@ -28,8 +28,8 @@ if (xsp !=0) image_xscale = sign(xsp) * 2;
 if (key_dash && dash_energy > 25){
 	sprite_index = spr_player_dash1;
 } else if (key_dash && dash_energy > 25 && keyboard_check(ord("A"))){
-	sprite_index = spr_player_dash2;
+	sprite_index = spr_player_attack2;
 }
 if (key_attack){
-	sprite_index = spr_player_attack;
+	sprite_index = spr_player_attack1;
 }
