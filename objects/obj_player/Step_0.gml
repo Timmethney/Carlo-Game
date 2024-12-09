@@ -5,7 +5,23 @@ scr_player_inputs()
 scr_shorter_camera()
 scr_player_camera()
 
-state()
+//States
+switch (state) {
+    case PlayerState.free:
+        // Handle free movement
+		PlayerStateFree()
+        break;
+
+    case PlayerState.dash:
+        // Handle dashing mechanics
+		PlayerStateDash()
+        break;
+
+    case PlayerState.attack:
+        // Handle attacking behavior
+		PlayerStateAttack()
+        break;
+}
 
 //Movement animations
 if (!place_meeting(x, y+1, obj_block)){

@@ -12,16 +12,10 @@ dash_cooldown_counting = false;
 
 attack_duration = 30;
 
-stateFree = function() {
- PlayerStateFree()
+enum PlayerState{
+	free,
+	dash,
+	attack
 }
 
-stateDash = function(){
-PlayerStateDash()
-}
-
-stateAttack = function(){
-PlayerStateAttack()	
-}
-
-state = stateFree;
+state = PlayerState.free
