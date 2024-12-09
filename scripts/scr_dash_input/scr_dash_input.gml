@@ -6,7 +6,7 @@ if (can_dash) && (key_dash){
 	dash_direction = point_direction(0,0,key_right-key_left,key_down-key_up);
 	dash_sp = dash_distance/dash_time;
 	dash_energy = dash_distance;
-	state = stateDash;
+	state = PlayerState.dash;
 	dash_cooldown_counting = true
 }
 //Dash cooldown
