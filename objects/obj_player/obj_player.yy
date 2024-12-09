@@ -4,6 +4,7 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_player",
@@ -40,8 +41,8 @@
     "path":"sprites/spr_player_idle/spr_player_idle.yy",
   },
   "spriteMaskId":{
-    "name":"spr_player_fall",
-    "path":"sprites/spr_player_fall/spr_player_fall.yy",
+    "name":"spr_player_idle",
+    "path":"sprites/spr_player_idle/spr_player_idle.yy",
   },
   "visible":true,
 }
