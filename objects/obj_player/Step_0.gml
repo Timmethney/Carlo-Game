@@ -5,7 +5,7 @@ scr_player_inputs()
 scr_shorter_camera()
 scr_player_camera()
 
-//States
+//Player states
 switch (state) {
     case PlayerState.free:
         // Handle free movement
@@ -22,15 +22,6 @@ switch (state) {
 		PlayerStateAttack()
         break;
 }
-
-//Facing direction
-if (keyboard_check_pressed(vk_right)) {
-    facing = FacingDirection.right;
-} 
-else if (keyboard_check_pressed(vk_left)) {
-    facing = FacingDirection.left;
-}
-
 //Movement animations
 if (!place_meeting(x, y+1, obj_block)){
     if (sign(ysp) < 0){
@@ -50,7 +41,7 @@ if (!place_meeting(x, y+1, obj_block)){
 }
 
 
-if (xsp !=0) image_xscale = sign(xsp) * 2;
+if (xsp !=0) image_xscale = sign(xsp);
 
 if (key_dash && dash_energy > 25){
 	sprite_index = spr_player_dash1;
