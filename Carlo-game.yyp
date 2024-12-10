@@ -58,6 +58,7 @@
     {"id":{"name":"scr_shorter_camera","path":"scripts/scr_shorter_camera/scr_shorter_camera.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"spr_cake","path":"sprites/spr_cake/spr_cake.yy",},},
+    {"id":{"name":"spr_corrupted_forest_background","path":"sprites/spr_corrupted_forest_background/spr_corrupted_forest_background.yy",},},
     {"id":{"name":"spr_dashcd","path":"sprites/spr_dashcd/spr_dashcd.yy",},},
     {"id":{"name":"spr_legs_idle","path":"sprites/spr_legs_idle/spr_legs_idle.yy",},},
     {"id":{"name":"spr_legs_walk","path":"sprites/spr_legs_walk/spr_legs_walk.yy",},},
