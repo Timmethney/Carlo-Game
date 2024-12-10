@@ -4,7 +4,3 @@ enum PlayerState{
 	attack
 }
 
-enum FacingDirection{
-	left,
-	right
-}

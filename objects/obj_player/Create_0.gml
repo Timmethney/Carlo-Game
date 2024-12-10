@@ -1,6 +1,5 @@
 obj_player.depth = -10;
 state = PlayerState.free
-facing = FacingDirection.right
 xsp = 0;
 ysp = 0;
 grav = 0.14;

@@ -5,14 +5,6 @@ scr_player_inputs()
 scr_shorter_camera()
 scr_player_camera()
 
-//Facing direction
-if (keyboard_check(vk_right)) {
-    facing = FacingDirection.right;
-} 
-else if (keyboard_check(vk_left)) {
-    facing = FacingDirection.left;  
-}
-
 //Player states
 switch (state) {
     case PlayerState.free:
