@@ -43,7 +43,7 @@ if (!place_meeting(x, y+1, obj_block)){
 
 if (xsp !=0) image_xscale = sign(xsp);
 
-if (key_dash && dash_energy > 25){
+if (key_dash && dash_energy > 50){
 	sprite_index = spr_player_dash1;
 } 
 if (key_attack){
