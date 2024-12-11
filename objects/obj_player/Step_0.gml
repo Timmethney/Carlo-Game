@@ -47,5 +47,5 @@ if (key_dash && dash_energy > 50){
 	sprite_index = spr_player_dash1;
 } 
 if (key_attack){
-	sprite_index = spr_player_attack;
+	sprite_index = spr_player_attack1;
 }
