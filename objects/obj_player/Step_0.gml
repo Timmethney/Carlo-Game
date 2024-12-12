@@ -48,4 +48,7 @@ if (key_dash && dash_energy > 50){
 } 
 if (key_attack){
 	sprite_index = spr_player_attack1;
+	state = PlayerState.attack
+}
+
 }
