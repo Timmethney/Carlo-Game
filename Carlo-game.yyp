@@ -52,6 +52,7 @@
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},},
     {"id":{"name":"PlayerStateDash","path":"scripts/PlayerStateDash/PlayerStateDash.yy",},},
     {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},},
+    {"id":{"name":"scr_animation_end","path":"scripts/scr_animation_end/scr_animation_end.yy",},},
     {"id":{"name":"scr_attack_input","path":"scripts/scr_attack_input/scr_attack_input.yy",},},
     {"id":{"name":"scr_collision","path":"scripts/scr_collision/scr_collision.yy",},},
     {"id":{"name":"scr_dash_input","path":"scripts/scr_dash_input/scr_dash_input.yy",},},
