@@ -6,8 +6,8 @@
   "name":"obj_block",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,5 +32,5 @@
     "path":"sprites/spr_block/spr_block.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
