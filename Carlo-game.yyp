@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Carlo-game",
   "resources":[
@@ -69,6 +69,7 @@
     {"id":{"name":"spr_fly_projectile","path":"sprites/spr_fly_projectile/spr_fly_projectile.yy",},},
     {"id":{"name":"spr_legs_idle","path":"sprites/spr_legs_idle/spr_legs_idle.yy",},},
     {"id":{"name":"spr_legs_walk","path":"sprites/spr_legs_walk/spr_legs_walk.yy",},},
+    {"id":{"name":"spr_player_attack1_hb","path":"sprites/spr_player_attack1_hb/spr_player_attack1_hb.yy",},},
     {"id":{"name":"spr_player_attack1","path":"sprites/spr_player_attack1/spr_player_attack1.yy",},},
     {"id":{"name":"spr_player_attack2","path":"sprites/spr_player_attack2/spr_player_attack2.yy",},},
     {"id":{"name":"spr_player_dash","path":"sprites/spr_player_dash/spr_player_dash.yy",},},
