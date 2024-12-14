@@ -33,7 +33,7 @@
   "origin":0,
   "parent":{
     "name":"Attacks",
-    "path":"folders/Sprites/Player sprites/Full Player/Attacks.yy",
+    "path":"folders/Sprites/Player sprites/Attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
