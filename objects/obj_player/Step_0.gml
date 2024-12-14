@@ -8,17 +8,14 @@ scr_player_camera()
 //Player states
 switch (state) {
     case PlayerState.free:
-        // Handle free movement
 		PlayerStateFree()
         break;
 
     case PlayerState.dash:
-        // Handle dashing mechanics
 		PlayerStateDash()
         break;
 
     case PlayerState.attack:
-        // Handle attacking behavior
 		PlayerStateAttack()
         break;
 }
