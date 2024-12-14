@@ -1,9 +1,11 @@
+
 //Player inputs
 scr_player_inputs()
 
 //Player camera
 scr_shorter_camera()
 scr_player_camera()
+
 
 //Player states
 switch (state) {
