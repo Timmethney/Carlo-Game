@@ -5,8 +5,8 @@ function PlayerStateAttack(){
  scr_collision()
  
  //Start of the attack
- if (sprite_index != spr_player_attack1){
-	 sprite_index = spr_player_attack1
+ if (sprite_index != spr_player_attack1_spr){
+	 sprite_index = spr_player_attack1_spr
 	 image_index = 0
 	 ds_list_clear(hitByAttack)
  }
