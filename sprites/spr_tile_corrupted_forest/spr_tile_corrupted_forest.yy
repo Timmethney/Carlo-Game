@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_tile_corrupted_forest",
   "bboxMode":0,
-  "bbox_bottom":1258,
+  "bbox_bottom":1296,
   "bbox_left":4,
   "bbox_right":1527,
   "bbox_top":241,
@@ -14,8 +14,8 @@
   "frames":[
     {"$GMSpriteFrame":"","%Name":"271d4cf2-c1db-4b4c-8152-c9a534ab1b81","name":"271d4cf2-c1db-4b4c-8152-c9a534ab1b81","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":0,
-  "gridY":0,
+  "gridX":72,
+  "gridY":77,
   "height":1300,
   "HTile":false,
   "layers":[
