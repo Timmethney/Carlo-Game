@@ -1,11 +1,18 @@
 function PlayerStateAttack(){
-	xsp = 0
-	
+	xsp *= 0.9
+
  scr_collision()
  
- //Start of the attack
+  //Start of the attack
  if (sprite_index != spr_player_attack1){
 	 sprite_index = spr_player_attack1
+	 image_speed = 1
+		if (obj_player.image_xscale = 1){
+		image_xscale =2} 
+		else {
+		image_xscale = -2
+		}
+	 image_yscale = 2
 	 image_index = 0
 	 ds_list_clear(hitByAttack)
  }
@@ -19,9 +26,7 @@ function PlayerStateAttack(){
 		 var hitID = hitByAttackNow[| i]
 		 if (ds_list_find_index(hitByAttack,hitID) == -1){
 			 ds_list_add(hitByAttack, hitID)
-			with (hitID) {
-				 EnemyHit(2);
-			 }
+		//	with (hitID) {EnemyHit(2);}
 		 }
 	 }
  }
@@ -30,6 +35,12 @@ function PlayerStateAttack(){
 
 if(scr_animation_end()){
 	sprite_index = spr_player_idle
+		if (obj_player.image_xscale = 2){
+		image_xscale =1} 
+		else {
+		image_xscale = -1
+		}
+	image_yscale = 1
 	state = PlayerState.free
 }
 }
