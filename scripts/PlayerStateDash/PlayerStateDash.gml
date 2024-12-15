@@ -14,9 +14,10 @@ function PlayerStateDash(){
 		image_speed = 0;
 		sprite_index = other.sprite_index;
 		if (obj_player.image_xscale = 1){
-		image_xscale =1} else {
-			image_xscale = -1
-			}
+		image_xscale =1} 
+		else {
+		image_xscale = -1
+		}
 		
 		image_yscale = 1;
 		image_blend = #a6a6a6;

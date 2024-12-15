@@ -8,44 +8,25 @@ scr_player_camera()
 //Player states
 switch (state) {
     case PlayerState.free:
-        // Handle free movement
 		PlayerStateFree()
         break;
 
     case PlayerState.dash:
-        // Handle dashing mechanics
 		PlayerStateDash()
         break;
 
     case PlayerState.attack:
-        // Handle attacking behavior
 		PlayerStateAttack()
         break;
 }
-//Movement animations
-if (!place_meeting(x, y+1, obj_block)){
-    if (sign(ysp) < 0){
-		image_speed	= 0;
-		sprite_index = spr_player_jump;
-	} else {
-		image_speed = 1;
-		sprite_index = spr_player_fall;
-	}
-} else {
-	image_speed = 1;
-	if (xsp == 0){
-		sprite_index = spr_player_idle;
-	} else {
-		sprite_index = spr_player_walk;
-}
+
+if (place_meeting(x,y+1,obj_block)) && (key_jump)
+{
+	ysp = -20;
+} else if(ysp < 18){
+	ysp += 1;
 }
 
 
-if (xsp !=0) image_xscale = sign(xsp);
 
-if (key_dash && dash_energy > 50){
-	sprite_index = spr_player_dash;
-} 
-if (key_attack){
-	state = PlayerState.attack
-}
+
