@@ -1,6 +1,5 @@
 function PlayerStateAttack(){
-	xsp *= 0.9
-
+scr_movement()
  scr_collision()
  
   //Start of the attack
