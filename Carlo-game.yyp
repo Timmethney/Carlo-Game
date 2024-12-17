@@ -37,7 +37,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Carlo-game",
   "resources":[
@@ -59,6 +59,7 @@
     {"id":{"name":"scr_player_camera","path":"scripts/scr_player_camera/scr_player_camera.yy",},},
     {"id":{"name":"scr_player_inputs","path":"scripts/scr_player_inputs/scr_player_inputs.yy",},},
     {"id":{"name":"scr_shorter_camera","path":"scripts/scr_shorter_camera/scr_shorter_camera.yy",},},
+    {"id":{"name":"Script13","path":"scripts/Script13/Script13.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"spr_cake","path":"sprites/spr_cake/spr_cake.yy",},},
     {"id":{"name":"spr_corrupted_forest_background","path":"sprites/spr_corrupted_forest_background/spr_corrupted_forest_background.yy",},},

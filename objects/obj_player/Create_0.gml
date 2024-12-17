@@ -12,5 +12,7 @@ dash_time = 12
 dash_cooldown = 60
 dash_cooldown_counting = false;
 
+canjump = 0;
+
 hitByAttack = ds_list_create()
 

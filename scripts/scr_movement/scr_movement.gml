@@ -3,9 +3,11 @@ function scr_movement(){
 //Movement calculations
 var move = key_right - key_left;
 
-if (place_meeting(x,y+1,obj_block)) && (key_jump)
+canjump -= 1;
+if (canjump > 0) && (key_jump)
 {
 	ysp = -20;
+	canjump = 0;
 } else if(ysp < 18){
 	ysp += 1;
 }

@@ -2,9 +2,16 @@
 function PlayerStateFree(){
 var move = key_right - key_left;
 xsp = move * walksp;
+canjump -= 1;
+if (canjump > 0) && (key_jump)
+{
+	ysp = -20;
+	canjump = 0;
+}
 scr_collision()
 scr_dash_input()
 scr_player_animation()
+OnGround()
 
 if (xsp !=0) image_xscale = sign(xsp);
 
