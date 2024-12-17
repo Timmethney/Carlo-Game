@@ -7,13 +7,12 @@ scr_movement()
 	 sprite_index = spr_player_attack1
 	 image_speed = 1
 		if (obj_player.image_xscale = 1){
-		image_xscale =2} 
+		image_xscale = 2} 
 		else {
 		image_xscale = -2
 		}
 	 image_yscale = 2
 	 image_index = 0
-	 ds_list_clear(hitByAttack)
  }
  //Use attack hitbox & check for hits
  mask_index = spr_player_attack1_hb

@@ -1,0 +1,4 @@
+enum ATTACKSTATE {
+	nonattack,
+	attack
+}
