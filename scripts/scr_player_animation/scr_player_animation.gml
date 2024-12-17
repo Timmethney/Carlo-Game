@@ -9,6 +9,7 @@ if (!place_meeting(x, y+1, obj_block)){
 		sprite_index = spr_player_fall;
 	}
 } else {
+	canjump = 8;
 	image_speed = 1;
 	if (xsp == 0){
 		sprite_index = spr_player_idle;
