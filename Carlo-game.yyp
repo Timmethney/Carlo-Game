@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Carlo-game",
   "resources":[
@@ -51,9 +51,11 @@
     {"id":{"name":"obj_trail","path":"objects/obj_trail/obj_trail.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"AttackStateAttack","path":"scripts/AttackStateAttack/AttackStateAttack.yy",},},
+    {"id":{"name":"AttackStateComboAttack","path":"scripts/AttackStateComboAttack/AttackStateComboAttack.yy",},},
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},},
     {"id":{"name":"PlayerStateDash","path":"scripts/PlayerStateDash/PlayerStateDash.yy",},},
     {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},},
+    {"id":{"name":"ProcessAttack","path":"scripts/ProcessAttack/ProcessAttack.yy",},},
     {"id":{"name":"scr_animation_end","path":"scripts/scr_animation_end/scr_animation_end.yy",},},
     {"id":{"name":"scr_attack_input","path":"scripts/scr_attack_input/scr_attack_input.yy",},},
     {"id":{"name":"scr_collision","path":"scripts/scr_collision/scr_collision.yy",},},
@@ -64,6 +66,7 @@
     {"id":{"name":"scr_player_inputs","path":"scripts/scr_player_inputs/scr_player_inputs.yy",},},
     {"id":{"name":"scr_shorter_camera","path":"scripts/scr_shorter_camera/scr_shorter_camera.yy",},},
     {"id":{"name":"spr_attack1","path":"sprites/spr_attack1/spr_attack1.yy",},},
+    {"id":{"name":"spr_attack2","path":"sprites/spr_attack2/spr_attack2.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"spr_cake","path":"sprites/spr_cake/spr_cake.yy",},},
     {"id":{"name":"spr_corrupted_forest_background","path":"sprites/spr_corrupted_forest_background/spr_corrupted_forest_background.yy",},},

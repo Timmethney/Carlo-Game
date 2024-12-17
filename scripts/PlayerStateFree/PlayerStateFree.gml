@@ -11,7 +11,6 @@ if (canjump > 0) && (key_jump)
 scr_collision()
 scr_dash_input()
 scr_player_animation()
-OnGround()
 
 if (xsp !=0) image_xscale = sign(xsp);
 

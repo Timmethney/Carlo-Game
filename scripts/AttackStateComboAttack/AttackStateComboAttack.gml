@@ -1,9 +1,9 @@
-function AttackStateAttack(){
-ProcessAttack(spr_attack1)
+function AttackStateComboAttack(){
+ProcessAttack(spr_attack2)
 
 //Trigger Combo Chain
-if(key_attack) && (image_index > 1){
-	state = ATTACKSTATE.combo
+if(key_attack) && (image_index > 2){
+	state = ATTACKSTATE.attack
 }
 	
 //End the attack
