@@ -5,6 +5,9 @@ scr_player_inputs()
 scr_shorter_camera()
 scr_player_camera()
 
+//Movement
+scr_movement()
+
 //Player states
 switch (state) {
     case PlayerState.free:
@@ -20,12 +23,7 @@ switch (state) {
         break;
 }
 
-if (place_meeting(x,y+1,obj_block)) && (key_jump)
-{
-	ysp = -20;
-} else if(ysp < 18){
-	ysp += 1;
-}
+
 
 
 

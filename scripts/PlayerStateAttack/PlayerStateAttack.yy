@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"PlayerStateAttack",
   "parent":{
-    "name":"State Machines",
-    "path":"folders/Scripts/State Machines.yy",
+    "name":"Player",
+    "path":"folders/Scripts/State Machines/Player.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

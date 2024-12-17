@@ -6,15 +6,10 @@ y = obj_player.y
 
 switch(state){
 	case ATTACKSTATE.nonattack:
-	image_speed	 = 0
 	image_index = 0
-	if (key_attack) state = ATTACKSTATE.attack;
+	if (key_attack && turn_timer == 3 && obj_player.state == PlayerState.free) state = ATTACKSTATE.attack;
 	break;
 	case ATTACKSTATE.attack:
-	 if (sprite_index != spr_attack1){
-	 sprite_index = spr_attack1
-	 image_speed = 1
-	 }
+    AttackStateAttack()
+	break;
 }
-
-show_debug_message(state)
