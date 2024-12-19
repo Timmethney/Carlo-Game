@@ -1,4 +1,5 @@
 enum ATTACKSTATE {
 	nonattack,
-	attack
+	attack,
+	combo
 }

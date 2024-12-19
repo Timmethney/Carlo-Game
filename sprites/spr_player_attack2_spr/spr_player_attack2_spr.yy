@@ -23,9 +23,9 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"4effb4c4-9aab-4584-979e-33d2755f8ce8","blendMode":0,"displayName":"default","isLocked":false,"name":"4effb4c4-9aab-4584-979e-33d2755f8ce8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"Copied Layer 1","blendMode":0,"displayName":"default","isLocked":false,"name":"Copied Layer 1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"Copied Layer 2","blendMode":0,"displayName":"default","isLocked":false,"name":"Copied Layer 2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"Copied Layer 3","blendMode":0,"displayName":"default","isLocked":false,"name":"Copied Layer 3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"Copied Layer 1","blendMode":0,"displayName":"default","isLocked":false,"name":"Copied Layer 1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"Copied Layer 2","blendMode":0,"displayName":"default","isLocked":false,"name":"Copied Layer 2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"Copied Layer 3","blendMode":0,"displayName":"default","isLocked":false,"name":"Copied Layer 3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"spr_player_attack2_spr",
   "nineSlice":null,

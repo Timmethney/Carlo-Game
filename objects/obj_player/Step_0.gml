@@ -21,6 +21,9 @@ switch (state) {
     case PlayerState.attack:
 		PlayerStateAttack()
         break;
+	case PlayerState.combo_attack:
+		PlayerStateComboAttack()
+		break;
 }
 
 

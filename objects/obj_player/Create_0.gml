@@ -14,5 +14,5 @@ dash_cooldown_counting = false;
 
 canjump = 0;
 
-hitByAttack = ds_list_create()
+
 

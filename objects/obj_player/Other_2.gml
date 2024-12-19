@@ -2,6 +2,6 @@ enum PlayerState{
 	free,
 	dash,
 	attack,
-	attack_combo
+	combo_attack
 }
 
