@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"ts_cavern_vegetation",
+  "%Name":"ts_town_ground",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"ts_cavern_vegetation",
-  "out_columns":6,
+  "name":"ts_town_ground",
+  "out_columns":2,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tile_cavern_vegetation",
-    "path":"sprites/spr_tile_cavern_vegetation/spr_tile_cavern_vegetation.yy",
+    "name":"spr_tile_town_ground",
+    "path":"sprites/spr_tile_town_ground/spr_tile_town_ground.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -28,11 +28,11 @@
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
-  "tileHeight":16,
+  "tileHeight":52,
   "tilehsep":0,
   "tilevsep":0,
-  "tileWidth":16,
+  "tileWidth":200,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":32,
+  "tile_count":12,
 }
