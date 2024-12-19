@@ -22,7 +22,7 @@ switch (state) {
 		PlayerStateAttack()
         break;
 	case PlayerState.combo_attack:
-		AttackStateComboAttack()
+		PlayerStateComboAttack()
 		break;
 }
 

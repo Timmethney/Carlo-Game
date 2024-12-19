@@ -28,6 +28,7 @@
     {"name":"obj_player_legs","order":2,"path":"objects/obj_player_legs/obj_player_legs.yy",},
     {"name":"obj_trail","order":3,"path":"objects/obj_trail/obj_trail.yy",},
     {"name":"AttackStateComboAttack","order":2,"path":"scripts/AttackStateComboAttack/AttackStateComboAttack.yy",},
+    {"name":"PlayerStateComboAttack","order":3,"path":"scripts/PlayerStateComboAttack/PlayerStateComboAttack.yy",},
     {"name":"PlayerStateDash","order":1,"path":"scripts/PlayerStateDash/PlayerStateDash.yy",},
     {"name":"PlayerStateFree","order":2,"path":"scripts/PlayerStateFree/PlayerStateFree.yy",},
     {"name":"ProcessAttack","order":1,"path":"scripts/ProcessAttack/ProcessAttack.yy",},

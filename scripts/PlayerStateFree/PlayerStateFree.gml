@@ -1,4 +1,3 @@
-
 function PlayerStateFree(){
 var move = key_right - key_left;
 xsp = move * walksp;

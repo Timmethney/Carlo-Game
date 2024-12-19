@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"Carlo-game",
   "resources":[
@@ -53,6 +53,7 @@
     {"id":{"name":"AttackStateAttack","path":"scripts/AttackStateAttack/AttackStateAttack.yy",},},
     {"id":{"name":"AttackStateComboAttack","path":"scripts/AttackStateComboAttack/AttackStateComboAttack.yy",},},
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},},
+    {"id":{"name":"PlayerStateComboAttack","path":"scripts/PlayerStateComboAttack/PlayerStateComboAttack.yy",},},
     {"id":{"name":"PlayerStateDash","path":"scripts/PlayerStateDash/PlayerStateDash.yy",},},
     {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},},
     {"id":{"name":"ProcessAttack","path":"scripts/ProcessAttack/ProcessAttack.yy",},},

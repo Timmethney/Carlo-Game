@@ -2,8 +2,10 @@ function AttackStateAttack(){
 ProcessAttack(spr_attack1)
 
 //Trigger Combo Chain
-if(key_attack) && (image_index > 1){
+if(key_attack) && (image_index > 2){
 	state = ATTACKSTATE.combo
+	turn_timer = 3
+	image_index = 0
 }
 	
 //End the attack
