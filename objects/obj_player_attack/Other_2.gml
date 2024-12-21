@@ -1,5 +1,5 @@
 enum ATTACKSTATE {
-	nonattack,
+	free,
 	attack,
 	combo
 }

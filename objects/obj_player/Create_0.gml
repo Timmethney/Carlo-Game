@@ -14,5 +14,9 @@ dash_cooldown_counting = false;
 
 canjump = 0;
 
+canCombo = false
+doneAttack = false
+attack_timer = 0
+
 
 

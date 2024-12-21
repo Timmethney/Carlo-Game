@@ -1,8 +1,8 @@
 function PlayerStateAttack(){
  scr_collision()
+  	attack_timer = 6
+	doneAttack = true
  
-
-
   //Start of the attack
  if (sprite_index != spr_player_attack1){
 	 sprite_index = spr_player_attack1
@@ -16,9 +16,7 @@ function PlayerStateAttack(){
 	 image_index = 0
  }
  
- if(key_attack) && (image_index > 2){
-	state = PlayerState.combo_attack
-}
+
 
 if(scr_animation_end()){
 	sprite_index = spr_player_idle
