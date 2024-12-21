@@ -1,5 +1,7 @@
 function PlayerStateComboAttack(){
 scr_collision()
+attack_timer = 6
+doneAttack = false
 
   //Start of the attack
  if (sprite_index != spr_player_attack2){

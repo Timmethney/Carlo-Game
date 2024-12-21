@@ -59,6 +59,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"AttackStateAttack","path":"scripts/AttackStateAttack/AttackStateAttack.yy",},},
     {"id":{"name":"AttackStateComboAttack","path":"scripts/AttackStateComboAttack/AttackStateComboAttack.yy",},},
+    {"id":{"name":"AttackStateFree","path":"scripts/AttackStateFree/AttackStateFree.yy",},},
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},},
     {"id":{"name":"PlayerStateComboAttack","path":"scripts/PlayerStateComboAttack/PlayerStateComboAttack.yy",},},
     {"id":{"name":"PlayerStateDash","path":"scripts/PlayerStateDash/PlayerStateDash.yy",},},
