@@ -37,8 +37,8 @@
     "path":"sprites/spr_attack1/spr_attack1.yy",
   },
   "spriteMaskId":{
-    "name":"spr_player_attack1_hb",
-    "path":"sprites/spr_player_attack1_hb/spr_player_attack1_hb.yy",
+    "name":"spr_attack1_hb",
+    "path":"sprites/spr_attack1_hb/spr_attack1_hb.yy",
   },
   "visible":true,
 }

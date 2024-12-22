@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Attacks",
-    "path":"folders/Sprites/Player sprites/Attacks.yy",
+    "name":"Attack 1",
+    "path":"folders/Sprites/Player sprites/Attacks/Attack 1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
