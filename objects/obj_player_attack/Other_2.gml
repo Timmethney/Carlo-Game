@@ -1,5 +1,7 @@
 enum ATTACKSTATE {
 	free,
 	attack,
-	combo
+	combo,
+	upward,
+	downward
 }

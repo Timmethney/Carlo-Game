@@ -37,4 +37,16 @@ if (canCombo == false) doneAttack = false
 if (key_attack && canCombo && doneAttack){
 	state = PlayerState.combo_attack	
 }
+
+//Upward Attack State
+if (key_attack && key_up && attack_timer <= 0){
+	state = PlayerState.upward_attack
+}
+
+//Downward Attack State
+global.inAir = !place_meeting(x,y+1,obj_block)
+
+if (key_attack && key_down && attack_timer <= 0 && global.inAir){
+	state = PlayerState.downward_attack
+}
 }

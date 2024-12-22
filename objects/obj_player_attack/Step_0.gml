@@ -1,8 +1,9 @@
 key_attack = keyboard_check_pressed(ord("D"))
-show_debug_message(state)
+key_up = keyboard_check(vk_up)
+key_down = keyboard_check(vk_down)
+
 x = obj_player.x 
 y = obj_player.y 
-
 
 switch(state){
 	case ATTACKSTATE.free:
@@ -13,6 +14,12 @@ switch(state){
 	break;
 	case ATTACKSTATE.combo:
 	AttackStateComboAttack()
+	break;
+	case ATTACKSTATE.upward:
+	AttackStateUpwardAttack()
+	break;
+	case ATTACKSTATE.downward:
+	AttackStateDownwardAttack()
 	break;
 }
 
