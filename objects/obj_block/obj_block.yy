@@ -6,8 +6,8 @@
   "name":"obj_block",
   "overriddenProperties":[],
   "parent":{
-    "name":"Shaders",
-    "path":"folders/Shaders.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
