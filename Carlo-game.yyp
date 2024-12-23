@@ -56,11 +56,14 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
+    {"id":{"name":"obj_lighting","path":"objects/obj_lighting/obj_lighting.yy",},},
+    {"id":{"name":"obj_lightparent","path":"objects/obj_lightparent/obj_lightparent.yy",},},
     {"id":{"name":"obj_player_attack","path":"objects/obj_player_attack/obj_player_attack.yy",},},
     {"id":{"name":"obj_player_legs","path":"objects/obj_player_legs/obj_player_legs.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_trail","path":"objects/obj_trail/obj_trail.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Cave","path":"rooms/Cave/Cave.yy",},},
+    {"id":{"name":"Corrupted_Forest","path":"rooms/Corrupted_Forest/Corrupted_Forest.yy",},},
     {"id":{"name":"AttackStateAttack","path":"scripts/AttackStateAttack/AttackStateAttack.yy",},},
     {"id":{"name":"AttackStateComboAttack","path":"scripts/AttackStateComboAttack/AttackStateComboAttack.yy",},},
     {"id":{"name":"AttackStateDownwardAttack","path":"scripts/AttackStateDownwardAttack/AttackStateDownwardAttack.yy",},},
@@ -99,6 +102,7 @@
     {"id":{"name":"spr_fly_death","path":"sprites/spr_fly_death/spr_fly_death.yy",},},
     {"id":{"name":"spr_fly_idle_walk","path":"sprites/spr_fly_idle_walk/spr_fly_idle_walk.yy",},},
     {"id":{"name":"spr_fly_projectile","path":"sprites/spr_fly_projectile/spr_fly_projectile.yy",},},
+    {"id":{"name":"spr_light","path":"sprites/spr_light/spr_light.yy",},},
     {"id":{"name":"spr_player_attack1","path":"sprites/spr_player_attack1/spr_player_attack1.yy",},},
     {"id":{"name":"spr_player_attack2","path":"sprites/spr_player_attack2/spr_player_attack2.yy",},},
     {"id":{"name":"spr_player_attackdown","path":"sprites/spr_player_attackdown/spr_player_attackdown.yy",},},
@@ -130,7 +134,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Corrupted_Forest","path":"rooms/Corrupted_Forest/Corrupted_Forest.yy",},},
+    {"roomId":{"name":"Cave","path":"rooms/Cave/Cave.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
