@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player_legs",
+  "%Name":"obj_collisionparent",
   "eventList":[],
   "managed":true,
-  "name":"obj_player_legs",
+  "name":"obj_collisionparent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Blocks",
+    "path":"folders/Objects/Blocks.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -5,6 +5,8 @@ ysp = 0;
 grav = 0.14;
 walksp = 8;
 
+moveLock = 0
+
 dash_energy = 0
 can_dash = true
 dash_distance = 200

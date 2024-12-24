@@ -6,8 +6,8 @@
   "name":"obj_lightparent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Light",
+    "path":"folders/Objects/Light.yy",
   },
   "parentObjectId":null,
   "persistent":false,

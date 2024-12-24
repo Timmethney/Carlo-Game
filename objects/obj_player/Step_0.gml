@@ -17,6 +17,10 @@ switch (state) {
     case PlayerState.dash:
 		PlayerStateDash()
         break;
+		
+	case PlayerState.climb:
+		PlayerStateClimb()
+		break;
 
     case PlayerState.attack:
 		PlayerStateAttack()
