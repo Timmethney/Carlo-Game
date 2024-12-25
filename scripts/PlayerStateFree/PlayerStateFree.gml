@@ -2,6 +2,9 @@ function PlayerStateFree(){
 global.inAir = !place_meeting(x,y+1,obj_collisionparent)
 var move = key_right - key_left;
 xsp = move * walksp;
+scr_collision()
+scr_player_animation()
+
 //Coyote time
 canjump -= 1;
 if (canjump > 0) && (key_jump)
@@ -10,22 +13,19 @@ if (canjump > 0) && (key_jump)
 	canjump = 0;
 }
 
-scr_collision()
-scr_player_animation()
-
 if (xsp !=0) image_xscale = sign(xsp);
 
+//Climb state
+var onAWall = place_meeting(x-5,y,obj_climbable) - place_meeting(x+5,y,obj_climbable)
+if (onAWall != 0 && global.inAir){
+	state = PlayerState.climb
+}
 //Dash state
 scr_dash_input()
 if (key_dash && dash_energy > 50){
 	sprite_index = spr_player_dash;
 } 
 
-//Climb state
-var onAWall = place_meeting(x-5,y,obj_climbable) - place_meeting(x+5,y,obj_climbable)
-if ((onAWall == -1 || onAWall == 1) && global.inAir){
-	state = PlayerState.climb		
-}
 
 //Attack state
 attack_timer -= 1

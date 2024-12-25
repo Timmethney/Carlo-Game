@@ -8,6 +8,10 @@ scr_player_camera()
 //Movement
 scr_movement()
 
+//Climbing variables
+var onTheGround = place_meeting(x, y + 1, obj_collisionparent);
+var onAWall = place_meeting(x-5,y,obj_climbable) - place_meeting(x+5,y,obj_climbable)
+
 //Player states
 switch (state) {
     case PlayerState.free:
@@ -38,6 +42,7 @@ switch (state) {
 		PlayerStateDownwardAttack()
 		break;
 }
+show_debug_message(xsp)
 
 
 
