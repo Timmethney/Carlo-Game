@@ -25,7 +25,7 @@ function PlayerStateClimb() {
     }
     y += ysp;
 
-
+    var move = key_right - key_left;
     ysp = min(ysp + 1, 5);
 
     if (key_jump && onAWall && place_meeting(x + 1, y, obj_climbable) ) {
