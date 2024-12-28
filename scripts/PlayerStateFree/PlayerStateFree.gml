@@ -1,13 +1,8 @@
 function PlayerStateFree(){
 global.inAir = !place_meeting(x,y+1,obj_collisionparent)
 var move = key_right - key_left;
-if (bounceleft_time <= 0 && bounceright_time <= 0) {
-    if ((bounceleft_time <= 0 && startedLeft) || (bounceright_time <= 0 && startedRight)) {
-        startedLeft = false;
-        startedRight = false;
-    }
-}
-if ((bounceleft_time <= 0 && !startedLeft) || (bounceright_time <= 0 && !startedRight)){
+
+if (bounce_time <= 0){
 	
 xsp = move * walksp;
 
@@ -19,6 +14,7 @@ if (place_meeting(x+xsp,y,obj_collisionparent)){
 	xsp = 0;
 }
 x += xsp;
+if (xsp !=0) image_xscale = sign(xsp);
 }
 //Vertical Collision
 if (place_meeting(x,y+ysp,obj_collisionparent)){
@@ -40,11 +36,10 @@ if (canjump > 0) && (key_jump)
 	canjump = 0;
 }
 
-if (xsp !=0) image_xscale = sign(xsp);
 
 //Climb state
-var onAWall = place_meeting(x-5,y,obj_climbable) - place_meeting(x+5,y,obj_climbable)
-if (onAWall != 0 && global.inAir){
+    var onAWall = place_meeting(x - 1, y, obj_climbable) || place_meeting(x + 1, y, obj_climbable);
+if (onAWall && global.inAir){
 	state = PlayerState.climb
 }
 //Dash state

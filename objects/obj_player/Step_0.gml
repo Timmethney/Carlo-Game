@@ -42,18 +42,12 @@ switch (state) {
 		PlayerStateDownwardAttack()
 		break;
 }
-	if (bounceleft_time > 0){
-		bounceleft_time -= 1
-        x += -5
-		ysp = -8
-		}
-	if (bounceright_time > 0){
-		bounceright_time -= 1
-        x += 5
-		ysp = -8
+	if (bounce_time > 0){
+		bounce_time -= 1
+        x += -5 * obj_player.image_xscale
+		ysp = -10
 		}
 
-show_debug_message(state)
 
 
 
