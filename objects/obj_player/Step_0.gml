@@ -8,6 +8,10 @@ scr_player_camera()
 //Movement
 scr_movement()
 
+//Climbing variables
+var onTheGround = place_meeting(x, y + 1, obj_collisionparent);
+var onAWall = place_meeting(x-5,y,obj_climbable) - place_meeting(x+5,y,obj_climbable)
+
 //Player states
 switch (state) {
     case PlayerState.free:
@@ -17,6 +21,10 @@ switch (state) {
     case PlayerState.dash:
 		PlayerStateDash()
         break;
+		
+	case PlayerState.climb:
+		PlayerStateClimb()
+		break;
 
     case PlayerState.attack:
 		PlayerStateAttack()
@@ -34,6 +42,11 @@ switch (state) {
 		PlayerStateDownwardAttack()
 		break;
 }
+	if (bounce_time > 0){
+		bounce_time -= 1
+        x += -5 * obj_player.image_xscale
+		ysp = -10
+		}
 
 
 

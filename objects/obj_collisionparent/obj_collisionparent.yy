@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_lightparent",
+  "%Name":"obj_collisionparent",
   "eventList":[],
   "managed":true,
-  "name":"obj_lightparent",
+  "name":"obj_collisionparent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Light",
-    "path":"folders/Objects/Light.yy",
+    "name":"Blocks",
+    "path":"folders/Objects/Blocks.yy",
   },
   "parentObjectId":null,
   "persistent":false,
