@@ -5,6 +5,11 @@ ysp = 0;
 grav = 0.14;
 walksp = 8;
 
+startedLeft = false
+bounceleft_time = 0
+startedRight = false
+bounceright_time = 0
+
 dash_energy = 0
 can_dash = true
 dash_distance = 200

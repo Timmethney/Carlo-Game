@@ -42,8 +42,18 @@ switch (state) {
 		PlayerStateDownwardAttack()
 		break;
 }
-show_debug_message(xsp)
+	if (bounceleft_time > 0){
+		bounceleft_time -= 1
+        x += -5
+		ysp = -8
+		}
+	if (bounceright_time > 0){
+		bounceright_time -= 1
+        x += 5
+		ysp = -8
+		}
 
+show_debug_message(state)
 
 
 

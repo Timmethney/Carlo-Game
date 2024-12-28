@@ -1,8 +1,35 @@
 function PlayerStateFree(){
 global.inAir = !place_meeting(x,y+1,obj_collisionparent)
 var move = key_right - key_left;
+if (bounceleft_time <= 0 && bounceright_time <= 0) {
+    if ((bounceleft_time <= 0 && startedLeft) || (bounceright_time <= 0 && startedRight)) {
+        startedLeft = false;
+        startedRight = false;
+    }
+}
+if ((bounceleft_time <= 0 && !startedLeft) || (bounceright_time <= 0 && !startedRight)){
+	
 xsp = move * walksp;
-scr_collision()
+
+//Horizontal Collision
+if (place_meeting(x+xsp,y,obj_collisionparent)){
+	while(!place_meeting(x+sign(xsp),y,obj_collisionparent)){
+		x = x + sign(xsp);
+	}
+	xsp = 0;
+}
+x += xsp;
+}
+//Vertical Collision
+if (place_meeting(x,y+ysp,obj_collisionparent)){
+	while(!place_meeting(x,y+sign(ysp),obj_collisionparent)){
+		y = y + sign(ysp);
+	}
+	ysp = 0;
+}
+y += ysp;
+
+
 scr_player_animation()
 
 //Coyote time
