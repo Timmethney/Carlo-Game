@@ -1,6 +1,16 @@
 //Player inputs
 scr_player_inputs()
 
+//Fullscreen
+if keyboard_check_pressed(vk_f11)
+{
+    if window_get_fullscreen(){
+        window_set_fullscreen(false);
+    }
+    else{
+        window_set_fullscreen(true);
+    }
+}
 //Player camera
 scr_shorter_camera()
 scr_player_camera()
@@ -12,6 +22,7 @@ scr_movement()
 var onTheGround = place_meeting(x, y + 1, obj_collisionparent);
 var onAWall = place_meeting(x-5,y,obj_climbable) - place_meeting(x+5,y,obj_climbable)
 
+	
 //Player states
 switch (state) {
     case PlayerState.free:
