@@ -1,10 +1,5 @@
 function PlayerStateFree(){
-global.inAir = !place_meeting(x,y+1,obj_collisionparent)
-	if (key_jump) {
-		scr_screenshake(10,30);
-		
-	}
-	
+global.inAir = !place_meeting(x,y+1,obj_collisionparent)	
 var move = key_right - key_left;
 
 if (bounce_time <= 0){

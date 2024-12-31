@@ -12,9 +12,10 @@ if keyboard_check_pressed(vk_f11)
     }
 }
 //Player camera
-scr_shorter_camera()
-scr_player_camera()
-
+if keyboard_check_pressed(ord("F")) {
+	with(obj_camera){
+		shakeCamera()
+	}}
 //Movement
 scr_movement()
 

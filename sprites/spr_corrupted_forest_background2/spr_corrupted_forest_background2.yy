@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_corrupted_forest_background2",
   "bboxMode":0,
-  "bbox_bottom":1619,
-  "bbox_left":7,
-  "bbox_right":2879,
+  "bbox_bottom":2299,
+  "bbox_left":0,
+  "bbox_right":2885,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":1620,
+  "height":2300,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"7af1f96e-edd2-4152-931e-397bf3d44d4d","blendMode":0,"displayName":"default","isLocked":false,"name":"7af1f96e-edd2-4152-931e-397bf3d44d4d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":2880,
+  "width":2886,
 }
