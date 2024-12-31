@@ -1,5 +1,5 @@
 function PlayerStateFree(){
-global.inAir = !place_meeting(x,y+1,obj_collisionparent)
+global.inAir = !place_meeting(x,y+1,obj_collisionparent)	
 var move = key_right - key_left;
 
 if (bounce_time <= 0){
