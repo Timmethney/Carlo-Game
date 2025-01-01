@@ -1,5 +1,9 @@
 var camX, camY
 
+function shakeCamera(){
+	shake_cx = 0
+}
+
 // Initialize cam x/y
 var targetCamX = shake_max_dist;
 var targetCamY = shake_max_dist;
@@ -21,7 +25,7 @@ shake_cx = scr_stepTowards(shake_cx, 1, 1 / (shake_seconds * room_speed));
 var ch_x = animcurve_get_channel(animShake, "x");
 var x_offset = animcurve_channel_evaluate(ch_x, shake_cx)*intensity;
 var ch_y = animcurve_get_channel(animShake, "y");
-var y_offset = animcurve_channel_evaluate(ch_y, shake_cx);
+var y_offset = animcurve_channel_evaluate(ch_y, shake_cx)*intensity;
 
 camX += x_offset;
 camY += y_offset;
