@@ -6,8 +6,8 @@
   "name":"obj_gary_the_wizard",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"NPC",
+    "path":"folders/Objects/NPC.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gary_the_wizard",
-    "path":"sprites/spr_gary_the_wizard/spr_gary_the_wizard.yy",
+    "name":"spr_gary_the_wizard_idle",
+    "path":"sprites/spr_gary_the_wizard_idle/spr_gary_the_wizard_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
