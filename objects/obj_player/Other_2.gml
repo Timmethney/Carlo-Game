@@ -5,6 +5,7 @@ enum PlayerState{
 	attack,
 	combo_attack,
 	upward_attack,
-	downward_attack
+	downward_attack,
+	death
 }
 
