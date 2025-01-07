@@ -1,5 +1,5 @@
 function AttackStateUpwardAttack(){
-ProcessAttack(spr_attackup)
+ProcessAttack(spr_attackup, spr_attackup_hb)
   	attack_timer = 6
 	
 //End the attack
