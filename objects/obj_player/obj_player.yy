@@ -15,10 +15,7 @@
     "name":"Player",
     "path":"folders/Objects/Player.yy",
   },
-  "parentObjectId":{
-    "name":"obj_lightparent",
-    "path":"objects/obj_lightparent/obj_lightparent.yy",
-  },
+  "parentObjectId":null,
   "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

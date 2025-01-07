@@ -1,5 +1,5 @@
 function AttackStateComboAttack(){
-ProcessAttack(spr_attack2)
+ProcessAttack(spr_attack2, spr_attack2_hb)
 
 attack_timer = 6
 doneAttack = false

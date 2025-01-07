@@ -1,4 +1,5 @@
 function AttackStateFree(){
+	mask_index = spr_player_jump
 	image_index = 0
 	
 	//Attack state

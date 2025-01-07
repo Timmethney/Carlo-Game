@@ -4,6 +4,9 @@ function ProcessAttack(){
 	 sprite_index = argument0
 	 image_speed = 1
 	 }
+	 if (mask_index != argument1){
+	 mask_index = argument1	 
+	 }
 
 	 if (obj_player.image_xscale ==  2 || obj_player.image_xscale == 1){
 	image_xscale = 2} 
