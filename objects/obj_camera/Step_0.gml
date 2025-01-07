@@ -24,7 +24,7 @@ camY = lerp(cam_y(), targetCamY, 0.05);
 shake_cx = scr_stepTowards(shake_cx, 1, 1 / (shake_seconds * room_speed));
 var ch_x = animcurve_get_channel(animShake, "x");
 var x_offset = animcurve_channel_evaluate(ch_x, shake_cx)*intensity;
-var ch_y = animcurve_get_channel(animShake, "y");
+var ch_y = animcurve_get_channel(animShake, "y"); 
 var y_offset = animcurve_channel_evaluate(ch_y, shake_cx)*intensity;
 
 camX += x_offset;
@@ -34,7 +34,6 @@ camY += y_offset;
 cam_pos(camX, camY);
 
 //Parallax backgrounds
-
 //Forest
 if (layer_exists("Trees1")){
 	layer_x("Trees1", camX/5)
