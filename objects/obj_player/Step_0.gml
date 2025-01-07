@@ -16,6 +16,19 @@ if keyboard_check_pressed(ord("F")) {
 	with(obj_camera){
 		shakeCamera()
 	}}
+
+//Health
+	if (keyboard_check_pressed(ord("Y"))) global.playerHealth -= 1
+	if (keyboard_check_pressed(ord("T"))) global.playerHealth += 1;
+	if (global.playerHealth <= 0){
+		state = PlayerState.death
+		instance_create_depth(0,0,-9999, obj_fade)
+		death_time -=1
+		if(death_time <= 0){
+		room_goto(room_death)
+		}
+	}
+	if (global.playerHealth >= global.playerHealth_max) global.playerHealth = global.playerHealth_max;
 //Movement
 scr_movement()
 
@@ -52,6 +65,9 @@ switch (state) {
 		
 	case PlayerState.downward_attack:
 		PlayerStateDownwardAttack()
+		break;
+	case PlayerState.death:
+		PlayerstateDeath()
 		break;
 }
 	if (bounce_time > 0){

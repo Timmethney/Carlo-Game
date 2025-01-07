@@ -1,5 +1,12 @@
 obj_player.depth = -10;
 state = PlayerState.free
+
+global.playerHealth = 3
+global.playerHealth_max = 3
+death_time = 10
+hp_bar_x = 10
+hp_bar_y = 10
+
 xsp = 0;
 ysp = 0;
 grav = 0.14;
