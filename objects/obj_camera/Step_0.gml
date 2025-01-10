@@ -1,8 +1,10 @@
 var camX, camY
 
 function shakeCamera(){
-	shake_cx = 0
+		global.shake_cx = 0
+		global.intensity = argument0
 }
+
 
 // Initialize cam x/y
 var targetCamX = shake_max_dist;
@@ -21,11 +23,11 @@ camX = lerp(cam_x(), targetCamX, 0.05); // Adjust the 0.1 for smoothness (higher
 camY = lerp(cam_y(), targetCamY, 0.05);
 
 // Screenshake
-shake_cx = scr_stepTowards(shake_cx, 1, 1 / (shake_seconds * room_speed));
+global.shake_cx = scr_stepTowards(global.shake_cx, 1, 1 / (shake_seconds * room_speed));
 var ch_x = animcurve_get_channel(animShake, "x");
-var x_offset = animcurve_channel_evaluate(ch_x, shake_cx)*intensity;
+var x_offset = animcurve_channel_evaluate(ch_x, global.shake_cx)*global.intensity;
 var ch_y = animcurve_get_channel(animShake, "y"); 
-var y_offset = animcurve_channel_evaluate(ch_y, shake_cx)*intensity;
+var y_offset = animcurve_channel_evaluate(ch_y, global.shake_cx)*global.intensity;
 
 camX += x_offset;
 camY += y_offset;

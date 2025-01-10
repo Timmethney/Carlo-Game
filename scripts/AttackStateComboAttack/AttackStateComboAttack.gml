@@ -8,5 +8,6 @@ doneAttack = false
 //End the attack
 	 if(scr_animation_end()){
 		 state = ATTACKSTATE.free
+		 image_index = 0
 	 }
 }

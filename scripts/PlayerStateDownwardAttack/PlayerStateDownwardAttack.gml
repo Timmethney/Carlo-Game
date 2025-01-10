@@ -18,13 +18,13 @@ function PlayerStateDownwardAttack(){
 
 
 if(scr_animation_end()){
-	sprite_index = spr_player_idle
 		if (obj_player.image_xscale = 1){
 		image_xscale =1} 
 		else {
 		image_xscale = -1
 		}
 	image_yscale = 1
+	image_index = 0
 	state = PlayerState.free
 }
 }
