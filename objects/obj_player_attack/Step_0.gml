@@ -22,5 +22,3 @@ switch(state){
 	AttackStateDownwardAttack()
 	break;
 }
-show_debug_message(mask_index)
-

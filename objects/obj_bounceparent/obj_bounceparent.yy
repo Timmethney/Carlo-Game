@@ -8,8 +8,8 @@
   "name":"obj_bounceparent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Blocks",
-    "path":"folders/Objects/Blocks.yy",
+    "name":"Parents",
+    "path":"folders/Objects/Blocks/Parents.yy",
   },
   "parentObjectId":null,
   "persistent":false,

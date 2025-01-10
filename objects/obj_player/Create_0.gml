@@ -6,6 +6,8 @@ global.playerHealth_max = 3
 death_time = 10
 hp_bar_x = 10
 hp_bar_y = 10
+invincibility = 0
+global.beenHit = false
 
 xsp = 0;
 ysp = 0;

@@ -14,21 +14,12 @@ if keyboard_check_pressed(vk_f11)
 //Player camera
 if keyboard_check_pressed(ord("F")) {
 	with(obj_camera){
-		shakeCamera()
+		shakeCamera(5000)
 	}}
 
 //Health
-	if (keyboard_check_pressed(ord("Y"))) global.playerHealth -= 1
-	if (keyboard_check_pressed(ord("T"))) global.playerHealth += 1;
-	if (global.playerHealth <= 0){
-		state = PlayerState.death
-		instance_create_depth(0,0,-9999, obj_fade)
-		death_time -=1
-		if(death_time <= 0){
-		room_goto(room_death)
-		}
-	}
-	if (global.playerHealth >= global.playerHealth_max) global.playerHealth = global.playerHealth_max;
+scr_player_health()
+
 //Movement
 scr_movement()
 

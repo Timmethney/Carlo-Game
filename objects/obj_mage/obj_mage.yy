@@ -9,7 +9,10 @@
     "name":"Enemies",
     "path":"folders/Objects/Enemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_enemyparent",
+    "path":"objects/obj_enemyparent/obj_enemyparent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_redmage_idle",
+    "path":"sprites/spr_redmage_idle/spr_redmage_idle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
