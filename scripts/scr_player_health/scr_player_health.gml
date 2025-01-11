@@ -4,11 +4,6 @@ function scr_player_health(){
 	if (global.playerHealth <= 0){
 		global.playerHealth = 0
 		state = PlayerState.death
-		instance_create_depth(0,0,-9999, obj_fade)
-		death_time -=1
-		if(death_time <= 0){
-		room_goto(room_death)
-		}
 	}
 	if (global.playerHealth >= global.playerHealth_max) global.playerHealth = global.playerHealth_max;
 	if (invincibility > 0){

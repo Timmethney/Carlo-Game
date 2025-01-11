@@ -3,7 +3,8 @@ state = PlayerState.free
 
 global.playerHealth = 3
 global.playerHealth_max = 3
-death_time = 10
+death_time = 120
+death_time_start = false
 hp_bar_x = 10
 hp_bar_y = 10
 invincibility = 0
