@@ -19,4 +19,3 @@ switch(state){
 	SpiderStateDeath()
 	break;
 }
-show_debug_message(enemyHealth)

@@ -14,7 +14,7 @@ if keyboard_check_pressed(vk_f11)
 //Player camera
 if keyboard_check_pressed(ord("F")) {
 	with(obj_camera){
-		shakeCamera(5000)
+		shakeCamera(50)
 	}}
 
 //Health
@@ -58,7 +58,7 @@ switch (state) {
 		PlayerStateDownwardAttack()
 		break;
 	case PlayerState.death:
-		PlayerstateDeath()
+		PlayerStateDeath()
 		break;
 }
 	if (bounce_time > 0){
@@ -68,7 +68,7 @@ switch (state) {
 		}
 
 
-
+show_debug_message(death_time)
 
 
 
