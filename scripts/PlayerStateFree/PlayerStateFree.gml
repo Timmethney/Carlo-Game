@@ -50,7 +50,7 @@ if (key_dash && dash_energy > 50){
 
 
 //Attack state
-attack_timer -= 1
+if (attack_timer > 0) attack_timer -= 1
 if (key_attack && attack_timer <= 0){
 	state = PlayerState.attack
 }
@@ -72,7 +72,8 @@ if (key_attack && key_up && attack_timer <= 0){
 }
 
 //Downward Attack State
-if (key_attack && key_down && attack_timer <= 0 && global.inAir){
+if (downward_timer > 0) downward_timer -= 1
+if (key_attack && key_down && attack_timer <= 0 && global.inAir && downward_timer <= 0 ){
 	state = PlayerState.downward_attack
 }
 }
