@@ -1,6 +1,12 @@
 function SpiderStateDeath(){
 image_speed = 1
+if (sprite_index != spr_spider_death){
 sprite_index = spr_spider_death
+image_index = 0
+lastFlash = true
+flash = 6
+}
+
 if (scr_animation_end()){
  image_speed = 0	
 }
