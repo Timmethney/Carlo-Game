@@ -9,7 +9,7 @@ runsp = 5
 chaseDist = 300
 attackDist = 150
 
-death_time = 180
+scr_enemyVars()
 
 
 
