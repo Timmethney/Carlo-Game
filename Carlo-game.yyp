@@ -145,6 +145,7 @@
     {"id":{"name":"SpiderStateChase","path":"scripts/SpiderStateChase/SpiderStateChase.yy",},},
     {"id":{"name":"SpiderStateDeath","path":"scripts/SpiderStateDeath/SpiderStateDeath.yy",},},
     {"id":{"name":"SpiderStateFree","path":"scripts/SpiderStateFree/SpiderStateFree.yy",},},
+    {"id":{"name":"sh_flash","path":"shaders/sh_flash/sh_flash.yy",},},
     {"id":{"name":"spr_attack1_hb","path":"sprites/spr_attack1_hb/spr_attack1_hb.yy",},},
     {"id":{"name":"spr_attack1","path":"sprites/spr_attack1/spr_attack1.yy",},},
     {"id":{"name":"spr_attack2_hb","path":"sprites/spr_attack2_hb/spr_attack2_hb.yy",},},
