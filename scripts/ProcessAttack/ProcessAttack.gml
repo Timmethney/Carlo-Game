@@ -28,6 +28,15 @@ function ProcessAttack(){
 			with (hitID) {
 				EnemyHit(global.attackDamage);
 				}
+				if (state == ATTACKSTATE.downward){
+					with (hitID){ 
+						if (lastBounce == false){
+					with (obj_player){
+						ysp = -20
+					}
+						}
+					}
+				}
 		 }
 	 }
  }

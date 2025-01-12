@@ -4,6 +4,7 @@ if (sprite_index != spr_spider_death){
 sprite_index = spr_spider_death
 image_index = 0
 lastFlash = true
+lastBounce = true
 flash = 6
 }
 
