@@ -19,11 +19,14 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"30b6eb16-ff74-4b77-b04e-fce50562e1eb","blendMode":0,"displayName":"default","isLocked":false,"name":"30b6eb16-ff74-4b77-b04e-fce50562e1eb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"02cf10c8-c2eb-4a3f-8fd5-8b12c7046ccc","blendMode":0,"displayName":"default","isLocked":false,"name":"02cf10c8-c2eb-4a3f-8fd5-8b12c7046ccc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"b1b31b5b-567b-46ba-a254-62be5f8a2214","blendMode":0,"displayName":"default","isLocked":false,"name":"b1b31b5b-567b-46ba-a254-62be5f8a2214","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"ebb31553-9eb3-4c03-8b50-5300b6f68ce8","blendMode":0,"displayName":"default","isLocked":false,"name":"ebb31553-9eb3-4c03-8b50-5300b6f68ce8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"5aeb2451-4ff2-4133-a4f4-2b94c8901e62","blendMode":0,"displayName":"default","isLocked":false,"name":"5aeb2451-4ff2-4133-a4f4-2b94c8901e62","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageFolderLayer":"","%Name":"db64639a-4a2c-4f4b-a8a2-8cd18565569c","blendMode":0,"displayName":"Carlo","isLocked":false,"layers":[
+        {"$GMImageLayer":"","%Name":"30b6eb16-ff74-4b77-b04e-fce50562e1eb","blendMode":0,"displayName":"Head","isLocked":false,"name":"30b6eb16-ff74-4b77-b04e-fce50562e1eb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+        {"$GMImageLayer":"","%Name":"a33d7ac8-889d-4d41-92e7-6c91f5ea0365","blendMode":0,"displayName":"Cape","isLocked":false,"name":"a33d7ac8-889d-4d41-92e7-6c91f5ea0365","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+        {"$GMImageLayer":"","%Name":"4e77ec0c-d1ed-4929-b79a-6f4e21a233c2","blendMode":0,"displayName":"Legs","isLocked":false,"name":"4e77ec0c-d1ed-4929-b79a-6f4e21a233c2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+      ],"name":"db64639a-4a2c-4f4b-a8a2-8cd18565569c","opacity":100.0,"resourceType":"GMImageFolderLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageFolderLayer":"","%Name":"74110823-9c04-479e-91f6-15840b1232b2","blendMode":0,"displayName":"Background","isLocked":false,"layers":[
+        {"$GMImageLayer":"","%Name":"a46c61b2-af8d-4ee4-90bd-9df310bdb63e","blendMode":0,"displayName":"default","isLocked":false,"name":"a46c61b2-af8d-4ee4-90bd-9df310bdb63e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+      ],"name":"74110823-9c04-479e-91f6-15840b1232b2","opacity":100.0,"resourceType":"GMImageFolderLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_carlo_fishing",
   "nineSlice":null,
