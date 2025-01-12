@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"EnemyHit",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Enemy scripts",
+    "path":"folders/Scripts/Enemy scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
