@@ -48,6 +48,11 @@ if (key_dash && dash_energy > 50){
 	sprite_index = spr_player_dash;
 } 
 
+//Sit state
+if (global.inMenu == true){
+	state = PlayerState.sit	
+	doSit = true
+}
 
 //Attack state
 if (attack_timer > 0) attack_timer -= 1

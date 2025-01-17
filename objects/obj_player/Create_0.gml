@@ -1,5 +1,6 @@
 obj_player.depth = -10;
 state = PlayerState.free
+global.inMenu = false
 
 global.playerHealth = 3
 global.playerHealth_max = 3
@@ -25,6 +26,8 @@ dash_cooldown = 60
 dash_cooldown_counting = false;
 
 canjump = 0;
+doSit = false
+isSitting = false
 
 canCombo = false
 doneAttack = false
