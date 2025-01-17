@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_title_menu",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_title_background",
+  "eventList":[],
   "managed":true,
-  "name":"obj_title_menu",
+  "name":"obj_title_background",
   "overriddenProperties":[],
   "parent":{
     "name":"Title Screen",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_menu",
-    "path":"sprites/spr_menu/spr_menu.yy",
+    "name":"spr_title_background",
+    "path":"sprites/spr_title_background/spr_title_background.yy",
   },
   "spriteMaskId":null,
   "visible":true,

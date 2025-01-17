@@ -1,0 +1,2 @@
+turnWhite = false
+menuDestroy = false

@@ -19,3 +19,7 @@ for (var l = 0; l < (optionsCount + _desc); l++){
 		draw_text (x, y + l * heightLine, _str);
 	}
 }
+
+mxPrev = mouse_x
+myPrev = mouse_y
+

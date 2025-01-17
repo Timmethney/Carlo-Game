@@ -1,1 +1,1 @@
-global.font_main = font_add_sprite(Font2, 32, true, 1)
+global.font_main = font_add_sprite(f_silver, 32, true, 1)
