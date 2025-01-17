@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"EnemyHit",
+  "%Name":"MenuFunctions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"EnemyHit",
+  "name":"MenuFunctions",
   "parent":{
-    "name":"Enemy scripts",
-    "path":"folders/Scripts/Enemy scripts.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
