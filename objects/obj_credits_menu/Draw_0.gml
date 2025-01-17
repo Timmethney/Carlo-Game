@@ -7,7 +7,7 @@ draw_set_valign(fa_top)
 
 var _desc = !(description == -1);
 for (var l = 0; l < (optionsCount + _desc); l++){
-	draw_set_color(c_gray)
+	draw_set_color(c_white)
 	if ((l == 0) && (_desc)){
 	draw_text(x, y, description)	
 	} else {

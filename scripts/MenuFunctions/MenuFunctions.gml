@@ -29,10 +29,10 @@ function Menu_Credits(_x, _y, _options, _description = -1){
 	options = _options;
 	description = _description;
 	optionsCount = array_length(_options)
-	hovermarker = "* "
+	hovermarker = ""
 	
 	//Set up size
-	margin = 18
+	margin = 60
 	draw_set_font(f_silver);
 	
 	width = 1;
@@ -42,7 +42,7 @@ function Menu_Credits(_x, _y, _options, _description = -1){
 	}
 	width += string_width(hovermarker);
 	
-	heightLine = 20
+	heightLine = 18
 	height = heightLine * (optionsCount + !(description == -1))
 	
 	widthFull = width + margin * 2

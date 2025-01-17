@@ -1,14 +1,9 @@
 Menu_Credits(
-room_width / 2, 
+room_width / 2-60, 
 room_height / 2, 
 [
-["AAAA"],
-["OK"],
-["A"],
-["Hi"],
-["lol"],
-["ok"]
+["Creator - Ethney"],
+[""],
+["Testers - Neuro, Sio "]
 ]
 )
-
-destroyInstance = false
