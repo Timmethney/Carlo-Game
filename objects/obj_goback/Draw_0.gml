@@ -8,7 +8,9 @@ if (turnWhite = true) {
 	
 	if (mouse_check_button_pressed(mb_left)){
 		instance_destroy()
-		instance_destroy()
+		with (obj_credits_menu){
+			instance_destroy()
+		}
 		instance_create_layer(room_width / 2 - 45, room_height / 2 + 50, 0,obj_menu)
 	}
 } else {

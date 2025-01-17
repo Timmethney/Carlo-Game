@@ -30,9 +30,8 @@ if ((mouse_check_button_pressed(mb_left) && mouseOver) || keyboard_check_pressed
 			instance_create_layer(x,y,0,obj_credits)
 			instance_create_layer(x-240,y-200,0,obj_goback)
 		}
-		if (_mouseHoverLine == 2) room_goto(room_town)
+		if (_mouseHoverLine == 2) game_end()
 	}
-
 }
 
 mxPrev = mouse_x

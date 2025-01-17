@@ -10,3 +10,5 @@ room_height / 2,
 ["ok"]
 ]
 )
+
+destroyInstance = false

@@ -1,25 +1,35 @@
-draw_sprite_stretched(spr_menu, 0, x-margin, y-margin, widthFull, heightFull)
+mouseOver = false
 
-draw_set_color(c_white)
-draw_set_font(f_silver)
-draw_set_halign(fa_left)
-draw_set_valign(fa_top)
-
-var _desc = !(description == -1);
-for (var l = 0; l < (optionsCount + _desc); l++){
-	draw_set_color(c_gray)
-	if ((l == 0) && (_desc)){
-	draw_text(x, y, description)	
-	} else {
-		var	_str = options[l-_desc][0]
-		if (hover == l - _desc){
-			draw_set_color(c_white);
-			_str = hovermarker + _str
+if (point_in_rectangle(mouse_x, mouse_y, x, y, x +width, y +height)){
+		mouseOver = true;
+		if (mxPrev != mouse_x) || (myPrev != mouse_y){
+			var _mouseHoverLine = (mouse_y - y) div heightLine;
+			if !(description == -1) _mouseHoverLine -= 1;
+			if (_mouseHoverLine < 0) _mouseHoverLine = 0
+			if (_mouseHoverLine > optionsCount - 1) _mouseHoverLine = optionsCount - 1
+			hover = _mouseHoverLine;
 		}
-		draw_text (x, y + l * heightLine, _str);
+}
+
+hover += keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
+
+if (hover > optionsCount - 1) hover = 0
+if (hover < 0) hover = optionsCount - 1
+
+if ((mouse_check_button_pressed(mb_left) && mouseOver) || keyboard_check_pressed(vk_enter)){
+	if (array_length(options[hover]) == 2){
+		var _func = options[hover][1];
+		if (_func != -1) _func();
 	}
+	if (mouse_check_button_pressed(mb_left)){
+		//Change options goto
+		var _mouseHoverLine = (mouse_y - y) div heightLine;
+		if (_mouseHoverLine == 0) room_goto(room_test)
+		if (_mouseHoverLine == 1) room_goto(room_test)
+		if (_mouseHoverLine == 2) room_goto(room_town)
+	}
+
 }
 
 mxPrev = mouse_x
 myPrev = mouse_y
-

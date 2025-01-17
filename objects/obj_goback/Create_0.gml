@@ -1,2 +1,1 @@
 turnWhite = false
-menuDestroy = false

@@ -1,3 +1,4 @@
+
 draw_sprite_stretched(spr_menu, 0, x-margin, y-margin, widthFull, heightFull)
 
 draw_set_color(c_white)

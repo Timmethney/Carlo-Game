@@ -25,7 +25,7 @@ function Menu(_x, _y, _options, _description = -1){
 }
 
 function Menu_Credits(_x, _y, _options, _description = -1){
-	with (instance_create_depth(_x, _y, -999, obj_title_menu)){
+	with (instance_create_depth(_x, _y, -999, obj_credits_menu)){
 	options = _options;
 	description = _description;
 	optionsCount = array_length(_options)
