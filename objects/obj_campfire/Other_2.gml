@@ -1,0 +1,4 @@
+enum CAMPFIRESTATE{
+	unlit,
+	lit
+}

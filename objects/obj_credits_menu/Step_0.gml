@@ -21,13 +21,6 @@ if ((mouse_check_button_pressed(mb_left) && mouseOver) || keyboard_check_pressed
 		var _func = options[hover][1];
 		if (_func != -1) _func();
 	}
-	if (mouse_check_button_pressed(mb_left)){
-		//Change options goto
-		var _mouseHoverLine = (mouse_y - y) div heightLine;
-		if (_mouseHoverLine == 0) room_goto(room_test)
-		if (_mouseHoverLine == 1) room_goto(room_test)
-		if (_mouseHoverLine == 2) room_goto(room_town)
-	}
 
 }
 
