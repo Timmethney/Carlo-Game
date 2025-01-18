@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"Soundtracks","order":1,"path":"folders/Sounds/Soundtracks.yy",},
     {"name":"Corrupted Forest","order":1,"path":"folders/Sprites/Tilesets/Corrupted Forest.yy",},
     {"name":"Forest","order":2,"path":"folders/Sprites/Tilesets/Forest.yy",},
     {"name":"Town","order":3,"path":"folders/Sprites/Tilesets/Town.yy",},
@@ -25,6 +26,7 @@
     {"name":"obj_player_attack","order":1,"path":"objects/obj_player_attack/obj_player_attack.yy",},
     {"name":"obj_safe_spot","order":9,"path":"objects/obj_safe_spot/obj_safe_spot.yy",},
     {"name":"obj_settings","order":6,"path":"objects/obj_settings/obj_settings.yy",},
+    {"name":"obj_sound","order":7,"path":"objects/obj_sound/obj_sound.yy",},
     {"name":"obj_spider","order":2,"path":"objects/obj_spider/obj_spider.yy",},
     {"name":"obj_spikes","order":12,"path":"objects/obj_spikes/obj_spikes.yy",},
     {"name":"obj_title_background","order":5,"path":"objects/obj_title_background/obj_title_background.yy",},
@@ -67,6 +69,8 @@
     {"name":"SpiderStateAttack","order":3,"path":"scripts/SpiderStateAttack/SpiderStateAttack.yy",},
     {"name":"SpiderStateChase","order":1,"path":"scripts/SpiderStateChase/SpiderStateChase.yy",},
     {"name":"SpiderStateDeath","order":2,"path":"scripts/SpiderStateDeath/SpiderStateDeath.yy",},
+    {"name":"snd_hover","order":2,"path":"sounds/snd_hover/snd_hover.yy",},
+    {"name":"snd_select","order":3,"path":"sounds/snd_select/snd_select.yy",},
     {"name":"spr_attack1_hb","order":1,"path":"sprites/spr_attack1_hb/spr_attack1_hb.yy",},
     {"name":"spr_attack1","order":3,"path":"sprites/spr_attack1/spr_attack1.yy",},
     {"name":"spr_attack2_hb","order":1,"path":"sprites/spr_attack2_hb/spr_attack2_hb.yy",},
