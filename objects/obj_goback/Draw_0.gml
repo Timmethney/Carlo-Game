@@ -7,6 +7,7 @@ if (turnWhite = true) {
     draw_set_color(c_white); // Highlight color
 	
 	if (mouse_check_button_pressed(mb_left)){
+		audio_play_sound(snd_select,0,false)
 		instance_destroy()
 		with (obj_credits_menu){
 			instance_destroy()
