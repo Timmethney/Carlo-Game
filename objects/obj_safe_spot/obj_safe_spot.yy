@@ -32,5 +32,5 @@
     "path":"sprites/spr_safe_spot/spr_safe_spot.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

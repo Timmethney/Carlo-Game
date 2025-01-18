@@ -77,9 +77,11 @@ switch (state) {
 }
 	if (bounce_time > 0){
 		bounce_time -= 1
+		if (!place_meeting(x -(20 *obj_player.image_xscale),y,obj_collisionparent)){
         x += -5 * obj_player.image_xscale
+		}
 		ysp = -10
 		}
-show_debug_message(global.inMenu)
+show_debug_message(bounce_time)
 
 
