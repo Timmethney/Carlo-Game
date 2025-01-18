@@ -1,5 +1,5 @@
 function SpiderStateChase(){
-	var playerDist = point_distance(obj_player.x, obj_player.y, obj_spider.x,obj_spider.y)
+	var playerDist = point_distance(obj_player.x, obj_player.y, x,y)
 	var playerDirection = sign(obj_player.x - x)
 	scr_collision()
 	

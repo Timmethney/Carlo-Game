@@ -1,7 +1,4 @@
-//Gravity
-if(ysp < 18){
-	ysp += 1;
-}
+
 image_speed = 1
 
 switch(state){

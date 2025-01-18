@@ -1,1 +1,0 @@
-var l270449A9_0;l270449A9_0 = keyboard_check(vk_right);if (l270449A9_0){}

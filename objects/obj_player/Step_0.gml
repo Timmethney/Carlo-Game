@@ -27,6 +27,16 @@ scr_movement()
 var onTheGround = place_meeting(x, y + 1, obj_collisionparent);
 var onAWall = place_meeting(x-5,y,obj_climbable) - place_meeting(x+5,y,obj_climbable)
 
+//Stop attacking after death
+if (state = PlayerState.death){
+	with (obj_player_attack){
+		playerDead = true	
+	} 
+} else {
+		with (obj_player_attack){
+			playerDead = false	
+		}
+	}
 	
 //Player states
 switch (state) {

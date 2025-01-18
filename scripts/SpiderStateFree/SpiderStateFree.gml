@@ -1,5 +1,5 @@
 function SpiderStateFree(){
-	var playerDist = point_distance(obj_player.x, obj_player.y, obj_spider.x,obj_spider.y)
+	var playerDist = point_distance(obj_player.x, obj_player.y, x,y)
 	scr_collision()
 	if (place_meeting(x+1,y,obj_collisionparent)){
 		xsp = -walksp

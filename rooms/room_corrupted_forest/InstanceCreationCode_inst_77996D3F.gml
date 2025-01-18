@@ -1,3 +1,3 @@
 targetRoom = room_town
 targetX = 2600
-targetY = 540
+targetY = 470

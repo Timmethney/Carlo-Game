@@ -5,6 +5,10 @@ key_down = keyboard_check(vk_down)
 x = obj_player.x 
 y = obj_player.y 
 
+if (playerDead == true){
+	state = ATTACKSTATE.free	
+}
+
 switch(state){
 	case ATTACKSTATE.free:
 	AttackStateFree()
