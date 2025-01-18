@@ -80,6 +80,6 @@ switch (state) {
         x += -5 * obj_player.image_xscale
 		ysp = -10
 		}
-
+show_debug_message(global.inMenu)
 
 
