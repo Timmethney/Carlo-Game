@@ -6,5 +6,7 @@ attack_timer = 0
 downward_timer = 0
 global.attackDamage = 50
 
+playerDead = false
+
 image_xscale = 2
 image_yscale = 2

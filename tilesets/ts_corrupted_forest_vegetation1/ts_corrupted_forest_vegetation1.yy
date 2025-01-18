@@ -1,16 +1,15 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"ts_corrupted_forest",
+  "%Name":"ts_corrupted_forest_vegetation1",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":4,
-    "SerialiseWidth":5,
-    "TileCompressedData":[-11,0,-3,69,-2,0,-3,86,1,0,],
-    "TileDataFormat":1,
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
   },
-  "name":"ts_corrupted_forest",
-  "out_columns":16,
-  "out_tilehborder":0,
+  "name":"ts_corrupted_forest_vegetation1",
+  "out_columns":7,
+  "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
     "name":"Corrupted Forest",
@@ -19,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tile_corrupted_forest",
-    "path":"sprites/spr_tile_corrupted_forest/spr_tile_corrupted_forest.yy",
+    "name":"spr_tile_corrupted_trees_decor",
+    "path":"sprites/spr_tile_corrupted_trees_decor/spr_tile_corrupted_trees_decor.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -33,7 +32,7 @@
   "tilehsep":0,
   "tilevsep":0,
   "tileWidth":83,
-  "tilexoff":38,
-  "tileyoff":73,
-  "tile_count":252,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":48,
 }

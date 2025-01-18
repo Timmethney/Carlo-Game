@@ -24,7 +24,7 @@ if ((mouse_check_button_pressed(mb_left) && mouseOver) || keyboard_check_pressed
 	if (mouse_check_button_pressed(mb_left)){
 		//Change options goto
 		var _mouseHoverLine = (mouse_y - y) div heightLine;
-		if (_mouseHoverLine == 0) room_goto(room_test)
+		if (_mouseHoverLine == 0) room_goto(room_town)
 		if (_mouseHoverLine == 1) {
 			instance_destroy()
 			instance_create_layer(x,y,0,obj_credits)

@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_damage",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_spikes",
+  "eventList":[],
   "managed":true,
-  "name":"obj_damage",
+  "name":"obj_spikes",
   "overriddenProperties":[],
   "parent":{
     "name":"Blocks",
@@ -30,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_damage",
-    "path":"sprites/spr_damage/spr_damage.yy",
+    "name":"spr_spikes",
+    "path":"sprites/spr_spikes/spr_spikes.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
