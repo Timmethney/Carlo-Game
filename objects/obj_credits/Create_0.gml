@@ -4,6 +4,6 @@ room_height / 2,
 [
 ["Creator - Ethney"],
 [""],
-["Testers - Neuro, Sio "]
+["Testers - Neuro, Sio, Nether "]
 ]
 )
