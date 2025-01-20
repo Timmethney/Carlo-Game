@@ -82,9 +82,7 @@
     {"$GMFolder":"","%Name":"Corrupted Forest","folderPath":"folders/Tile Sets/Corrupted Forest.yy","name":"Corrupted Forest","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Town","folderPath":"folders/Tile Sets/Town.yy","name":"Town","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"Menu_Select_Sound.mp3.mpeg","CopyToMask":-1,"filePath":"datafiles","name":"Menu_Select_Sound.mp3.mpeg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-  ],
+  "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
