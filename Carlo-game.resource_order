@@ -11,6 +11,7 @@
     {"name":"obj_bounce","order":4,"path":"objects/obj_bounce/obj_bounce.yy",},
     {"name":"obj_camera","order":3,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_camp_menu","order":2,"path":"objects/obj_camp_menu/obj_camp_menu.yy",},
+    {"name":"obj_campfire_controller","order":3,"path":"objects/obj_campfire_controller/obj_campfire_controller.yy",},
     {"name":"obj_campfire_menu","order":1,"path":"objects/obj_campfire_menu/obj_campfire_menu.yy",},
     {"name":"obj_campfire","order":11,"path":"objects/obj_campfire/obj_campfire.yy",},
     {"name":"obj_climbable","order":3,"path":"objects/obj_climbable/obj_climbable.yy",},

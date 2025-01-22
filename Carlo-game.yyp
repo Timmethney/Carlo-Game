@@ -98,6 +98,7 @@
     {"id":{"name":"obj_bounceparent","path":"objects/obj_bounceparent/obj_bounceparent.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_camp_menu","path":"objects/obj_camp_menu/obj_camp_menu.yy",},},
+    {"id":{"name":"obj_campfire_controller","path":"objects/obj_campfire_controller/obj_campfire_controller.yy",},},
     {"id":{"name":"obj_campfire_menu","path":"objects/obj_campfire_menu/obj_campfire_menu.yy",},},
     {"id":{"name":"obj_campfire","path":"objects/obj_campfire/obj_campfire.yy",},},
     {"id":{"name":"obj_climbable","path":"objects/obj_climbable/obj_climbable.yy",},},
