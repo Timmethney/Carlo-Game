@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"spr_lit_campfire",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":159,
   "bbox_left":80,
   "bbox_right":179,

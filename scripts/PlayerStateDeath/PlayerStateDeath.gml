@@ -26,8 +26,11 @@ if (scr_animation_end()){
 	instance_create_depth(0,0,-9999, obj_fade)
 	death_time = 120
 	death_time_start = false
-	x = obj_campfire.x - choose(-10, 10)
-	y = obj_campfire.y
+	if (global.checkpointR != room){
+	room = global.checkpointR
+	}
+	x = global.checkpointX 
+	y = global.checkpointY
 	image_speed = 1
 	global.playerHealth = global.playerHealth_max
 	state = PlayerState.free

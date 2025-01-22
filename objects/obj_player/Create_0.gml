@@ -2,6 +2,11 @@ obj_player.depth = -10;
 state = PlayerState.free
 global.inMenu = false
 
+global.checkpoint = noone;
+global.checkpointR = 3;
+global.checkpointX = 0;
+global.checkpointY = 0;
+
 global.playerHealth = 3
 global.playerHealth_max = 3
 death_time = 120
