@@ -28,13 +28,16 @@ function ProcessAttack(){
 			with (hitID) {
 				EnemyHit(global.attackDamage);
 				}
-				if (state == ATTACKSTATE.downward){
-					with (hitID){ 
-						if (lastBounce == false){
-					with (obj_player){
+				//Bounce
+				if (state == ATTACKSTATE.downward && hitID.lastBounce == false){
+						with (obj_player){
 						ysp = -20
-					}
 						}
+					}
+				//Knockback
+				if ((state == ATTACKSTATE.attack || state == ATTACKSTATE.combo) && hitID.lastBounce == false){
+					with (obj_player){
+					knockback_timer = 5
 					}
 				}
 		 }
