@@ -1,6 +1,5 @@
 function ProcessAttack(){
-		audio_play_sound(snd_swing1,1,false,1,0,random_range(0.8,1.2))
-	 if (sprite_index != argument0){
+	 if (sprite_index != argument0){ 
 	 sprite_index = argument0
 	 image_speed = 1
 	 image_index = 0
@@ -8,6 +7,7 @@ function ProcessAttack(){
 	 if (mask_index != argument1){
 	 mask_index = argument1	 
 	 	 ds_list_clear(hitByAttack)
+		     	audio_play_sound(snd_swing1,1,false,1,0,random_range(0.8,1.2))		
 	 }
 
 	 if (obj_player.image_xscale ==  2 || obj_player.image_xscale == 1){

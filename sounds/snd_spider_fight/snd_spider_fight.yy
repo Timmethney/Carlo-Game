@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_AHHH",
+  "%Name":"snd_spider_fight",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":3.456,
-  "name":"snd_AHHH",
+  "duration":186.01796,
+  "name":"snd_spider_fight",
   "parent":{
-    "name":"Player",
-    "path":"folders/Sounds/Player.yy",
+    "name":"Soundtracks",
+    "path":"folders/Sounds/Soundtracks.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_AHHH.mp3",
+  "soundFile":"snd_spider_fight.mp3",
   "type":0,
-  "volume":0.07,
+  "volume":0.09,
 }

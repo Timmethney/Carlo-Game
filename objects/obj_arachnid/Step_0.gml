@@ -5,9 +5,24 @@ if(ysp < 18){
 if (enemyHealth <= 0){
 	state = ARACHNIDSTATE.death	
 }
+//Health lost
+if (enemyHealth < prevHealth){
+	healthLost = true	
+	healthTimer = 2
+}
+if (healthTimer > 0) healthTimer--
+if (healthTimer <= 0){
+	if (healthLost){
+		healthLost = false
+	}
+}
+prevHealth = enemyHealth
+
+//Timers
 if (collideTimer > 0) collideTimer--
 if (shootTimer > 0) shootTimer--
 
+//States
 switch (state){
 	case ARACHNIDSTATE.start:
 	ArachnidStateStart()
