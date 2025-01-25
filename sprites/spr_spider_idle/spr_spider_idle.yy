@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Spider",
-    "path":"folders/Sprites/Enemy sprites/Spider.yy",
+    "name":"Normal",
+    "path":"folders/Sprites/Enemy sprites/Spider/Normal.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

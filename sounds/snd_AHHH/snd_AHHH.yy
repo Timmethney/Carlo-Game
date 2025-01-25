@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_AHHH.mp3",
   "type":0,
-  "volume":0.35,
+  "volume":0.07,
 }

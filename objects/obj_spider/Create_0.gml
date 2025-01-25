@@ -1,5 +1,5 @@
 state = SPIDERSTATE.free
-enemyHealth = 300
+enemyHealth = 60
 damageAmount = 0
 
 xsp = choose(3,-3)

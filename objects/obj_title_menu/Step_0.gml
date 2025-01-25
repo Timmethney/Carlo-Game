@@ -57,6 +57,10 @@ if ((mouse_check_button_pressed(mb_left) && mouseOver) || keyboard_check_pressed
             audio_play_sound(snd_select, 0, false);
             game_end();
         }
+		if (_mouseHoverLine == 3){
+			audio_play_sound(snd_select, 0, false)
+			room = room_boss_forest
+		}
     }
 }
 

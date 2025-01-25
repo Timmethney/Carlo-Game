@@ -30,6 +30,7 @@ dash_distance = 200
 dash_time = 12
 dash_cooldown = 60
 dash_cooldown_counting = false;
+dash_invincibility = 12
 
 canjump = 0;
 doSit = false

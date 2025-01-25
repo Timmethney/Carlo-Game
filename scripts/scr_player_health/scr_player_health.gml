@@ -15,6 +15,6 @@ function scr_player_health(){
 		audio_play_sound(snd_AHHH,0,false,1,0,random_range(0.8,1.2))
 		global.playerHealth -= 1
 		invincibility = 180
-		with (obj_camera) shakeCamera(60)
+		with (obj_camera) shakeCamera(30)
 	}
 }
