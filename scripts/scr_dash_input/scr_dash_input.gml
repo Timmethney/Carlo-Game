@@ -10,7 +10,10 @@ if (can_dash) && (key_dash) && (_inputs){
 	dash_energy = dash_distance;
 	state = PlayerState.dash
 	dash_cooldown_counting = true
-}
+		if (global.beenHit == false){
+		invincibility = dash_invincibility
+		}
+}	
 
 //Dash cooldown
 if (dash_cooldown <= 0) {
