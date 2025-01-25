@@ -1,5 +1,7 @@
 {
   "FolderOrderSettings":[
+    {"name":"Enemies","order":5,"path":"folders/Sounds/Enemies.yy",},
+    {"name":"Player","order":4,"path":"folders/Sounds/Player.yy",},
     {"name":"Soundtracks","order":1,"path":"folders/Sounds/Soundtracks.yy",},
     {"name":"Corrupted Forest","order":1,"path":"folders/Sprites/Tilesets/Corrupted Forest.yy",},
     {"name":"Forest","order":2,"path":"folders/Sprites/Tilesets/Forest.yy",},
@@ -70,6 +72,7 @@
     {"name":"SpiderStateAttack","order":3,"path":"scripts/SpiderStateAttack/SpiderStateAttack.yy",},
     {"name":"SpiderStateChase","order":1,"path":"scripts/SpiderStateChase/SpiderStateChase.yy",},
     {"name":"SpiderStateDeath","order":2,"path":"scripts/SpiderStateDeath/SpiderStateDeath.yy",},
+    {"name":"snd_AHHH","order":1,"path":"sounds/snd_AHHH/snd_AHHH.yy",},
     {"name":"snd_hover","order":2,"path":"sounds/snd_hover/snd_hover.yy",},
     {"name":"snd_select","order":3,"path":"sounds/snd_select/snd_select.yy",},
     {"name":"spr_attack1_hb","order":1,"path":"sprites/spr_attack1_hb/spr_attack1_hb.yy",},
