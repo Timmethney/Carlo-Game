@@ -22,6 +22,7 @@ grav = 0.14;
 walksp = 8;
 
 bounce_time = 0
+knockback_timer = 0
 
 dash_energy = 0
 can_dash = true

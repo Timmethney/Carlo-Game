@@ -78,10 +78,16 @@ switch (state) {
 	if (bounce_time > 0){
 		bounce_time -= 1
 		if (!place_meeting(x -(20 *obj_player.image_xscale),y,obj_collisionparent)){
-        x += -5 * obj_player.image_xscale
-		}
+		  x += -5 * obj_player.image_xscale
+			}
 		ysp = -10
 		}
-show_debug_message(bounce_time)
+	if (knockback_timer > 0){
+		knockback_timer--
+		xsp = 0
+		if (!place_meeting(x -(15 *obj_player.image_xscale),y,obj_collisionparent)){
+			x += -10 * obj_player.image_xscale
+		}
+	}
 
 
