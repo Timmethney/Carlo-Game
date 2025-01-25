@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_main_menu",
+  "%Name":"snd_enemyHit",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":194.87347,
-  "name":"snd_main_menu",
+  "duration":0.626939,
+  "name":"snd_enemyHit",
   "parent":{
-    "name":"Soundtracks",
-    "path":"folders/Sounds/Soundtracks.yy",
+    "name":"Enemies",
+    "path":"folders/Sounds/Enemies.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_main_menu.mp3",
+  "soundFile":"snd_enemyHit.mp3",
   "type":0,
-  "volume":0.31,
+  "volume":0.25,
 }

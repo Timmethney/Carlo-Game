@@ -1,5 +1,5 @@
 function ProcessAttack(){
-
+		audio_play_sound(snd_swing1,1,false,1,0,random_range(0.8,1.2))
 	 if (sprite_index != argument0){
 	 sprite_index = argument0
 	 image_speed = 1
@@ -27,15 +27,18 @@ function ProcessAttack(){
 			 ds_list_add(hitByAttack, hitID)
 			with (hitID) {
 				EnemyHit(global.attackDamage);
+				if (hitID.lastTime == false){
+					audio_play_sound(snd_enemyHit,0,false,1,0,random_range(0.8,1.2))	
+				}
 				}
 				//Bounce
-				if (state == ATTACKSTATE.downward && hitID.lastBounce == false){
+				if (state == ATTACKSTATE.downward && hitID.lastTime == false){
 						with (obj_player){
 						ysp = -20
 						}
 					}
 				//Knockback
-				if ((state == ATTACKSTATE.attack || state == ATTACKSTATE.combo) && hitID.lastBounce == false){
+				if ((state == ATTACKSTATE.attack || state == ATTACKSTATE.combo) && hitID.lastTime == false){
 					with (obj_player){
 					knockback_timer = 5
 					}
