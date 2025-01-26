@@ -11,10 +11,10 @@ function ArachnidPhase1Shoot(){
 			instance_create_layer(x,y,"Enemies",obj_web)
 			obj_web.state = WEBSTATE.shoot
 		}
-		if (shootCount > random_range(8,12)){
+		if (shootCount > random_range(4,7)){
 			state1 = choose(PHASE1.walk, PHASE1.rain)
 			shootCount = 0
-			shootCharge = 60
+			shootCharge = 90
 		}
 	}
 }

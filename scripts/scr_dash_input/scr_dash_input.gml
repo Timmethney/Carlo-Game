@@ -5,7 +5,7 @@ var _inputs = key_right || key_left || key_up || key_down;
 if (can_dash) && (key_dash) && (_inputs){
 	can_dash = false;
 	can_jump = 0;
-	dash_direction = point_direction(0, 0, key_right - key_left, key_down - key_up);
+	dash_direction = point_direction(0, 0, key_right - key_left, 0);
 	dash_sp = dash_distance / dash_time;
 	dash_energy = dash_distance;
 	state = PlayerState.dash
