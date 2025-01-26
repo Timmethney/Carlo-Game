@@ -1,7 +1,7 @@
 function PlayerStateDownwardAttack(){
  scr_collision()
   	attack_timer = 6
-	downward_timer = 18
+	downward_timer = 12
  
   //Start of the attack
  if (sprite_index != spr_player_attackdown){

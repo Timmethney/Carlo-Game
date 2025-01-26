@@ -33,9 +33,4 @@ if (dash_energy <= 0) {
 	xsp = 0
 	state = PlayerState.free
 	} 
-if (dash_energy <= 25 && key_up){
-	ysp = -7
-	xsp = 0
-	state = PlayerState.free	
-	} 
 }

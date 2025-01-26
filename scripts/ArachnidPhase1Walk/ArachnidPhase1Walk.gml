@@ -22,7 +22,7 @@ function ArachnidPhase1Walk(){
 	image_xscale = -sign(xsp)
 	}
 	image_speed = 1
-	if (collideCount >= random_range(4,7)){
+	if (collideCount >= random_range(3,5)){
 		state1 = choose(PHASE1.rain, PHASE1.shoot)
 		collideCount = 0
 		shootCount = 0
