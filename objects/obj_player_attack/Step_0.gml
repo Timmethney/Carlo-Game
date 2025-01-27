@@ -5,6 +5,8 @@ key_down = keyboard_check(vk_down)
 x = obj_player.x 
 y = obj_player.y 
 
+if ScreenPause(){exit;}
+
 if (playerDead == true){
 	state = ATTACKSTATE.free	
 }

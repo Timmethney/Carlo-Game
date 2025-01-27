@@ -1,17 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_credits",
+  "%Name":"obj_screen_pause_timed",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_credits",
+  "name":"obj_screen_pause_timed",
   "overriddenProperties":[],
   "parent":{
-    "name":"Title Screen",
-    "path":"folders/Objects/Game/Title Screen.yy",
+    "name":"Game",
+    "path":"folders/Objects/Game.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_screen_pause",
+    "path":"objects/obj_screen_pause/obj_screen_pause.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -17,4 +17,4 @@ shootCd = 40
 
 xsp = 10
 ysp = 0
-walksp = 12
+walksp = 10

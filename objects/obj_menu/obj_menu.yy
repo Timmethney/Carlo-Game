@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Title Screen",
-    "path":"folders/Objects/Title Screen.yy",
+    "path":"folders/Objects/Game/Title Screen.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,3 +1,5 @@
+if ScreenPause(){exit;}
+
 //Gravity
 if(ysp < 18){
 	ysp += 1;

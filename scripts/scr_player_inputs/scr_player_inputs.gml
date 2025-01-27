@@ -8,4 +8,5 @@ key_up = keyboard_check(vk_up)
 key_down = keyboard_check(vk_down)
 key_dash = keyboard_check(vk_shift);
 key_attack = keyboard_check_pressed(ord("D"))
+key_pause = keyboard_check_pressed(vk_escape)
 }

@@ -1,3 +1,4 @@
+if ScreenPause(){exit;}
 
 switch (state){
 	case WEBSTATE.shoot:

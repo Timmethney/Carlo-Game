@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_campfire_controller",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_screen_pause",
+  "eventList":[],
   "managed":true,
-  "name":"obj_campfire_controller",
+  "name":"obj_screen_pause",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/GUI/Buttons.yy",
+    "name":"Game",
+    "path":"folders/Objects/Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,

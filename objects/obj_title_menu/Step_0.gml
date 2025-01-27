@@ -20,8 +20,6 @@ if (point_in_rectangle(mouse_x, mouse_y, x, y, x + width, y + height)) {
     }
 }
 
-hover += keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
-
 // Store the old hover value again
 var oldHover = hover;
 
@@ -33,7 +31,7 @@ if (hover != oldHover) {
     audio_play_sound(snd_hover, 1, false);
 }
 
-if ((mouse_check_button_pressed(mb_left) && mouseOver) || keyboard_check_pressed(vk_enter)) {
+if (mouse_check_button_pressed(mb_left) && mouseOver) {
     if (array_length(options[hover]) == 2) {
         var _func = options[hover][1];
         if (_func != -1) _func();
