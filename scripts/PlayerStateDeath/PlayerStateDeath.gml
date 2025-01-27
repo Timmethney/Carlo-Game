@@ -33,6 +33,7 @@ if (scr_animation_end()){
 	y = global.checkpointY
 	image_speed = 1
 	global.playerHealth = global.playerHealth_max
+	invincibility = 180 + death_time
 	state = PlayerState.free
 	}
 }

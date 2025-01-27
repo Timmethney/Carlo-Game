@@ -12,7 +12,7 @@ xsp = 0
 		
 			if (shootCount < _shootCount){
 				for (var i = 0; i < 9; i++){
-					instance_create_layer(0 + i * 200 - random_range(50,200),0,"Enemies", obj_web)
+					instance_create_layer(0 + i * 220 - random_range(50,200),0,"Enemies", obj_web)
 					obj_web.state = WEBSTATE.rain
 				}
 			}

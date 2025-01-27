@@ -11,10 +11,13 @@ function scr_player_health(){
 	}
 	if (invincibility == 1) global.beenHit = false
 	
-	if (global.beenHit == true && invincibility <= 0){
-		audio_play_sound(snd_AHHH,0,false,1,0,random_range(0.8,1.2))
-		global.playerHealth -= 1
-		invincibility = 180
-		with (obj_camera) shakeCamera(30)
+	if (global.beenHit == true && invincibility <= 0 && state != PlayerState.death){
+		audio_play_sound(snd_AHHH,0,false,1,0,random_range(0.8,1.2)) //Pain sound
+		
+		global.playerHealth -= 1 //Reduce health
+
+		invincibility = 120 //Invincibility
+
+		with (obj_camera) shakeCamera(30) //Camera shake
 	}
 }

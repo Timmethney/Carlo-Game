@@ -1,3 +1,11 @@
+//Screen pause
+if (instance_exists(obj_screen_pause)){
+	image_speed = 0
+	exit;
+} else {
+	image_speed = 1
+}
+
 //Gravity
 if(ysp < 18){
 	ysp += 1;
