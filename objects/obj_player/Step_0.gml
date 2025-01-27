@@ -11,6 +11,17 @@ if keyboard_check_pressed(vk_f11)
         window_set_fullscreen(true);
     }
 }
+//Pause menu
+if (key_pause){
+	if (!instance_exists(obj_pause_menu)){
+		instance_create_depth(0,0,0, obj_pause_menu)	
+	} else {
+		instance_destroy(obj_pause_menu)	
+	}
+}
+//Screen pause
+if ScreenPause(){exit;}
+
 //Player camera
 if keyboard_check_pressed(ord("F")) {
 	with(obj_camera){

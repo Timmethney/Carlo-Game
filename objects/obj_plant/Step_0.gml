@@ -1,3 +1,4 @@
+if ScreenPause(){exit;}
 
 image_speed = 1
 
