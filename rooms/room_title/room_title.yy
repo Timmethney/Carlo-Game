@@ -24,8 +24,8 @@
   ],
   "name":"room_title",
   "parent":{
-    "name":"Title",
-    "path":"folders/Rooms/Title.yy",
+    "name":"Game",
+    "path":"folders/Rooms/Game.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

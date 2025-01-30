@@ -1,3 +1,3 @@
-targetRoom = room_corrupted_forest
-targetX = 270
-targetY = 860
+targetRoom = room_forest
+targetX = 250
+targetY = 500
