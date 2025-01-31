@@ -1,3 +1,5 @@
+
+
 var spr = spr_bossHPBar;
 var boss = obj_arachnid
 var spriteWidth = sprite_get_width(spr)
@@ -8,6 +10,10 @@ var yPosition = (room_height/2 + 700)
 
 var xOffset = (xPosition - round(spriteWidth/2))
 var yOffset = (yPosition - round(spriteHeight/2))
+
+if (!instance_exists(boss)){
+	exit	
+}
 
 draw_sprite_ext(spr,0,xOffset,yOffset,1,1,0,c_white,1)
 draw_sprite_ext(spr,1,xOffset,yOffset,healthPointsPrev/boss.enemyHealthMax,1,0,c_white,1)

@@ -1,3 +1,3 @@
-targetRoom = room_town
-targetX = 2600
-targetY = 470
+targetRoom = room_boss_forest
+targetX = 1200
+targetY = 480
