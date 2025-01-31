@@ -1,5 +1,14 @@
 if ScreenPause(){exit;}
 
+if (instance_exists(obj_arachnid) && global.otherSpiderDeath == true && lastTime = false){
+	instance_destroy()
+}	
+
+if (global.otherSpiderDeath != true){
+	instance_deactivate_object(obj_warp)	
+} else {
+	instance_activate_object(obj_warp)	
+}
 //Gravity
 if(ysp < 18){
 	ysp += 1;
@@ -61,6 +70,7 @@ switch (state){
 	case ARACHNIDSTATE.death:
 	image_speed = 1
 	if (sprite_index != spr_arachnid_death){
+		global.otherSpiderDeath = true
 		sprite_index = spr_arachnid_death
 		image_index = 0
 		lastFlash = true
@@ -71,9 +81,9 @@ switch (state){
 		image_speed = 0	
 	}
 	
-	if (image_speed == 0) death_time -= 1
+	if (image_speed == 0) deathTime -= 1
 
-	if (death_time <= 0){
+	if (deathTime <= 0){
 		image_alpha -= 0.01	
 	}
 	if (image_alpha <= 0) {
@@ -81,3 +91,5 @@ switch (state){
 	}
 	break;
 }
+
+

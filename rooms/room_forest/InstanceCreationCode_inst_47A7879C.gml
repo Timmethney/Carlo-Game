@@ -1,3 +1,3 @@
 targetRoom = room_boss_forest
-targetX = 1200
-targetY = 480
+targetX = 166
+targetY = 540

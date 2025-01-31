@@ -1,3 +1,5 @@
+global.otherSpiderDeath = false
+
 enum ARACHNIDSTATE{
 	start,
 	phase1,
