@@ -1,0 +1,1 @@
+if (global.beenHit == false && state != WORMSTATE.death) global.beenHit = true
