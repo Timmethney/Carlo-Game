@@ -28,7 +28,6 @@
     {"name":"obj_block","order":1,"path":"objects/obj_block/obj_block.yy",},
     {"name":"obj_bossHPBar","order":2,"path":"objects/obj_bossHPBar/obj_bossHPBar.yy",},
     {"name":"obj_bounce","order":4,"path":"objects/obj_bounce/obj_bounce.yy",},
-    {"name":"obj_burrow","order":1,"path":"objects/obj_burrow/obj_burrow.yy",},
     {"name":"obj_camera","order":3,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_camp_menu","order":2,"path":"objects/obj_camp_menu/obj_camp_menu.yy",},
     {"name":"obj_campfire_menu","order":1,"path":"objects/obj_campfire_menu/obj_campfire_menu.yy",},

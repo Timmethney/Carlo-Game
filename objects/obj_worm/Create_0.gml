@@ -1,8 +1,11 @@
 state = WORMSTATE.free
 scr_enemyVars()
-enemyHealth = 30
+
+enemyHealth = 40
 xsp = 0
 ysp= 0
-jumpX = 0
-jumpY = 0
-attackDist = 100
+jump = false
+jumpTimer = 0
+attackDist = 500
+jumpCD =90
+dirTimer = 10
