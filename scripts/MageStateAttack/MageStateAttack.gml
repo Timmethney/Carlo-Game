@@ -1,6 +1,6 @@
 function MageStateAttack(){
 	var playerDist = point_distance(obj_player.x, obj_player.y, x,y)
-	var playerDir = point_direction(obj_player.x, obj_player.y,x,y)
+	var playerDir = point_direction(x,y,obj_player.x,obj_player.y)
 	var playerDirGen = sign(obj_player.x - x)
 	var _index = ceil(image_index)
 	
@@ -10,17 +10,20 @@ function MageStateAttack(){
 	if (playerDist > attackDist){
 		state = MAGESTATE.chase	
 	}
-	
-	if (sprite_index != spr_redmage_attack){
-		sprite_index = spr_redmage_attack	
-		image_xscale = sign(playerDirGen)
-	}
-	if (attackTimer == 1){
+	if (attackTimer <= 0){
+		if (sprite_index != spr_redmage_attack){
+			sprite_index = spr_redmage_attack	
+			image_xscale = sign(playerDirGen)
+		}
 		if (_index == 3){
-			attackTimer = 1
-			instance_create_layer(x,y,"Instances",obj_red_fire)
+			if (attackDone == false){
+				direction = playerDir
+				bul_type_create(bullet,x,y,direction,bulletSpeed)
+			}
+			attackDone = true
 		}
 	}
+
 	if (scr_animation_end()){
 		state = MAGESTATE.free	
 		attackTimer = 10

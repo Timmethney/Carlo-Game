@@ -9,7 +9,8 @@ function MageStateChase(){
 	}
 
 	if (playerDist <= attackDist){
-		state = MAGESTATE.attack	
+		state = MAGESTATE.attack
+		attackDone = false
 	}
 		
 	if (playerDist > chaseDist){
@@ -17,6 +18,8 @@ function MageStateChase(){
 	}
 	
 	if (sprite_index != spr_redmage_fly){
+		image_index = 0
 		sprite_index = spr_redmage_fly
 	}
+	image_xscale = sign(playerDirGen)
 }
