@@ -26,7 +26,7 @@ function ProcessAttack(){
 		 if (ds_list_find_index(hitByAttack,hitID) == -1){
 			 ds_list_add(hitByAttack, hitID)
 			with (hitID) {
-				EnemyHit(600);
+				EnemyHit(global.attackDamage);
 				if (hitID.lastTime == false){
 					audio_play_sound(snd_enemyHit,0,false,1,0,random_range(0.8,1.2))	
 				}
