@@ -30,7 +30,7 @@
   ],
   "name":"spr_worm_idle",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Worm",
     "path":"folders/Sprites/Enemy sprites/Worm.yy",
@@ -103,7 +103,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":64,
+    "xorigin":62,
     "yorigin":64,
   },
   "swatchColours":null,
