@@ -352,8 +352,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"room_title","path":"rooms/room_title/room_title.yy",},},
     {"roomId":{"name":"room_test","path":"rooms/room_test/room_test.yy",},},
+    {"roomId":{"name":"room_title","path":"rooms/room_title/room_title.yy",},},
     {"roomId":{"name":"room_boss_forest","path":"rooms/room_boss_forest/room_boss_forest.yy",},},
     {"roomId":{"name":"room_town","path":"rooms/room_town/room_town.yy",},},
     {"roomId":{"name":"room_corrupted_forest","path":"rooms/room_corrupted_forest/room_corrupted_forest.yy",},},

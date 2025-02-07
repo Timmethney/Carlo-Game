@@ -1,3 +1,9 @@
+if ScreenPause(){
+	speed = 0
+	exit} else {
+		speed = bulletSpeed
+	}
+
 image_angle = direction;
 image_xscale += scale_speed_x;
 image_yscale += scale_speed_y;

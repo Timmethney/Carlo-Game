@@ -1,4 +1,7 @@
-if (ScreenPause()){exit;}
+if (ScreenPause()){
+	speed = 0
+	
+	exit;}
 
 attackTimer--
 
