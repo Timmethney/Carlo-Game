@@ -1,9 +1,9 @@
 {
   "$GMSprite":"",
   "%Name":"spr_redmage_death",
-  "bboxMode":0,
-  "bbox_bottom":127,
-  "bbox_left":4,
+  "bboxMode":2,
+  "bbox_bottom":115,
+  "bbox_left":5,
   "bbox_right":127,
   "bbox_top":4,
   "collisionKind":1,

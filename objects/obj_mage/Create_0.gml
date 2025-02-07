@@ -6,6 +6,7 @@ xsp = 0
 ysp = 0
 walksp = 5
 chaseDist = 600
+fallSpeed = true
 
 attackDist = 300
 attackTimer = 0
