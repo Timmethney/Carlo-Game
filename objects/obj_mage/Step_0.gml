@@ -4,6 +4,9 @@ if (ScreenPause()){
 	exit;}
 
 attackTimer--
+if (attackTimer <= 0){
+	attackDone = false	
+}
 
 if (enemyHealth<= 0){
 	state = MAGESTATE.death	

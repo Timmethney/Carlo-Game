@@ -22,7 +22,7 @@ function WormStateAttack(){
 		jumpTimer = 2
 	}
 	if (!onGround){
-		x += sign(currentDir) * 7
+			x += sign(currentDir) * 7
 	}
 	jumpTimer--
 	if (jumpTimer == 0){
