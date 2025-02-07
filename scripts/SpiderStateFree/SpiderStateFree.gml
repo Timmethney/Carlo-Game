@@ -13,6 +13,12 @@ function SpiderStateFree(){
 	}
 	image_speed = 1
 	//States
+	if (!place_meeting(x+100,y+5,obj_collisionparent)){
+		xsp  = -walksp	
+	}
+	if (!place_meeting(x-100,y+5,obj_collisionparent)){
+		xsp  = walksp	
+	}
 	if (playerDist <= chaseDist){
 	state = SPIDERSTATE.chase
 	}

@@ -9,6 +9,9 @@ function MageStateDeath(){
 		if (sprite_index != spr_redmage_death){ 
 			sprite_index = spr_redmage_death
 			image_index = 0	
+			lastFlash = true
+			lastTime = true
+			flash = 6
 		}
 		if (image_index == 2){
 			image_index = 0

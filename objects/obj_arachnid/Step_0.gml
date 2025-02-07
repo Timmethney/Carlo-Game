@@ -1,4 +1,6 @@
-if ScreenPause(){exit;}
+if ScreenPause(){
+	exit;
+	}
 
 if (instance_exists(obj_arachnid) && global.otherSpiderDeath == true && lastTime = false){
 	instance_destroy()

@@ -10,7 +10,6 @@ function MageStateChase(){
 
 	if (playerDist <= attackDist){
 		state = MAGESTATE.attack
-		attackDone = false
 	}
 		
 	if (playerDist > chaseDist){

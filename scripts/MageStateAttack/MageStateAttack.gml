@@ -17,15 +17,15 @@ function MageStateAttack(){
 		}
 		if (_index == 3){
 			if (attackDone == false){
+				attackDone = true
+				attackTimer = 30
 				direction = playerDir
 				bul_type_create(bullet,x,y,direction,bulletSpeed)
 			}
-			attackDone = true
 		}
 	}
 
 	if (scr_animation_end()){
 		state = MAGESTATE.free	
-		attackTimer = 10
 	}
 }
