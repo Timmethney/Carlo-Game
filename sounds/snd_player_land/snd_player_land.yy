@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_swing1",
+  "%Name":"snd_player_land",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.298563,
-  "name":"snd_swing1",
+  "duration":0.185873,
+  "name":"snd_player_land",
   "parent":{
     "name":"Player",
     "path":"folders/Sounds/Player.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_swing1.ogg",
+  "soundFile":"snd_player_land.wav",
   "type":0,
-  "volume":0.14,
+  "volume":1.0,
 }
