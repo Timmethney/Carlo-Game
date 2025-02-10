@@ -5,10 +5,12 @@ function WormStateDeath(){
 		lastFlash = true
 		lastTime = true
 		flash = 6
+		with (obj_score) target_score += 100
 	}
 	
 	if (scr_animation_end()){
 		image_speed = 0
+
 	}
 	if (image_speed == 0) death_time -= 1
 
