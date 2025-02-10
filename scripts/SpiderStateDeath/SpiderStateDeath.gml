@@ -6,6 +6,7 @@ if (sprite_index != spr_spider_death){
 	lastFlash = true
 	lastTime = true
 	flash = 6
+	with (obj_score) target_score += 100
 }
 
 if (scr_animation_end()){

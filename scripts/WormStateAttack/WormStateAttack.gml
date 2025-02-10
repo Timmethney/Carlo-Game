@@ -7,6 +7,7 @@ function WormStateAttack(){
 	if (playerDist > attackDist){
 		state = WORMSTATE.free	
 	}
+	
 	if (jumpCD <= 0){
 		jumpCD = 120
 		if (sprite_index != spr_worm_attack){
@@ -21,10 +22,7 @@ function WormStateAttack(){
 		jumpTimer = 2
 	}
 	if (!onGround){
-			xsp = sign(currentDir) * 7
-	}
-	if (onGround){
-		xsp = 0	
+		x += sign(currentDir) * 7
 	}
 	jumpTimer--
 	if (jumpTimer == 0){
