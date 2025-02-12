@@ -40,5 +40,11 @@ if (room == room_title) {
         audio_play_sound(snd_spider_fight, 0, true); // Play the new sound
         current_sound = snd_spider_fight; // Set it as the currently playing sound
     }
-} 
+} else if (room == room_town){
+	if (current_sound != snd_forest){
+		audio_stop_all()
+		audio_play_sound(snd_forest,0,true,0.15)
+		current_sound = snd_forest
+	}
+}
 #endregion

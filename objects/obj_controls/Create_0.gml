@@ -12,7 +12,8 @@ room_height / 2 - 60,
 ["E - Interact"],
 ["F11 - Toggle Fullscreen"],
 ["ESC - Pause Game"],
-[""],
-[""]
+["M - Mute music"],
+["Debugging: T - +Health Y - -Health"],
+["R - Restart Game"]
 ]
 )
