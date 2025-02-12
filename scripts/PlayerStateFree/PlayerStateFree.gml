@@ -1,4 +1,8 @@
 function PlayerStateFree(){
+	//Sound management
+	if (audio_is_playing(snd_player_wallslide)){
+		audio_stop_sound(snd_player_wallslide)
+	}
 global.inAir = !place_meeting(x,y+1,obj_collisionparent)	
 var move = key_right - key_left;
 
@@ -25,7 +29,6 @@ if (place_meeting(x,y+ysp,obj_collisionparent)){
 }
 y += ysp;
 
-
 scr_player_animation()
 
 //Coyote time
@@ -34,7 +37,7 @@ if (canjump > 0) && (key_jump)
 {
 	ysp = -20;
 	canjump = 0;
-}
+} 
 
 
 //Climb state
@@ -46,6 +49,9 @@ if (onAWall && global.inAir){
 scr_dash_input()
 if (key_dash && dash_energy > 50){
 	sprite_index = spr_player_dash;
+	if (!audio_is_playing(snd_player_dash)){
+		audio_play_sound(snd_player_dash,7,false,0.6,0,random_range(0.9,1.1))
+	}
 } 
 
 //Sit state

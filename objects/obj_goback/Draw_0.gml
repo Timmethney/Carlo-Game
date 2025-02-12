@@ -9,8 +9,15 @@ if (turnWhite = true) {
 	if (mouse_check_button_pressed(mb_left)){
 		audio_play_sound(snd_select,0,false)
 		instance_destroy()
-		with (obj_credits_menu){
-			instance_destroy()
+		if (instance_exists(obj_credits_menu)){
+			with (obj_credits_menu){
+				instance_destroy()
+			}
+		}
+		if (instance_exists(obj_controls_menu)){
+			with(obj_controls_menu){
+				instance_destroy()	
+			}
 		}
 		instance_create_layer(room_width / 2 - 45, room_height / 2 + 50, 0,obj_menu)
 	}

@@ -12,7 +12,7 @@ function scr_player_health(){
 	if (invincibility == 1) global.beenHit = false
 	
 	if (global.beenHit == true && invincibility <= 0 && state != PlayerState.death){
-		audio_play_sound(snd_AHHH,0,false,1,0,random_range(0.8,1.2)) //Pain sound
+		audio_play_sound(snd_player_damage,100,false,0.8,0,random_range(0.8,1.2)) //Pain sound
 		instance_create_depth(0,0,0, obj_screen_pause_timed)
 		
 		global.playerHealth -= 1 //Reduce health

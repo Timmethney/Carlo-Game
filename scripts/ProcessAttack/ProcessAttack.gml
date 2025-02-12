@@ -7,7 +7,7 @@ function ProcessAttack(){
 	 if (mask_index != argument1){
 	 mask_index = argument1	 
 	 	 ds_list_clear(hitByAttack)
-		     	audio_play_sound(snd_swing1,1,false,1,0,random_range(0.8,1.2))		
+		     	audio_play_sound(snd_player_swing,8,false,1,0,random_range(0.8,1.2))		
 	 }
 
 	 if (obj_player.image_xscale ==  2 || obj_player.image_xscale == 1){
