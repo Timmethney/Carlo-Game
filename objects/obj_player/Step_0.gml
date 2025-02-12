@@ -1,6 +1,20 @@
 //Player inputs
 scr_player_inputs()
 
+#region // Score
+if (current_score < target_score) {
+    current_score += score_speed;
+    if (current_score > target_score) {
+        current_score = target_score; 
+    }
+}
+if (current_score != target_score){
+	audio_play_sound(snd_score,0,0,.09,10)	
+}
+if (current_score == target_score){
+	audio_stop_sound(snd_score)	
+}
+#endregion
 //Fullscreen
 if keyboard_check_pressed(vk_f11)
 {
@@ -49,7 +63,7 @@ if (state = PlayerState.death){
 		}
 	}
 	
-//Player states
+#region //Player states
 switch (state) {
     case PlayerState.free:
 		PlayerStateFree()
@@ -85,14 +99,23 @@ switch (state) {
 	case PlayerState.death:
 		PlayerStateDeath()
 		break;
-}
+} 
+#endregion
+
+#region //Wall climbing
 	if (bounce_time > 0){
 		bounce_time -= 1
 		if (!place_meeting(x -(20 *obj_player.image_xscale),y,obj_collisionparent)){
 		  x += -5 * obj_player.image_xscale
 			}
 		ysp = -10
+			if (bounce_time > 5){
+				if (!audio_is_playing(snd_player_wallclimb)) {
+				    audio_play_sound(snd_player_wallclimb, 6, false,0.6);
+				}
+			}
 		}
+#endregion
 	if (knockback_timer > 0){
 		knockback_timer--
 		xsp = 0
@@ -100,5 +123,23 @@ switch (state) {
 			x += -10 * obj_player.image_xscale
 		}
 	}
+#region//Sound management
+if (state != PlayerState.death){
+	if (onTheGround && xsp != 0){
+		if (!audio_is_playing(snd_player_walk_grass)){
+			audio_play_sound(snd_player_walk_grass,2,false,0.5,choose(0.4,0.1,0.6,0.9))	
+		}
+	} else{
+		audio_stop_sound(snd_player_walk_grass)	
+	}
+
+	if (sprite_index == spr_player_jump){
+		if (!audio_is_playing(snd_player_jump)){
+			audio_play_sound(snd_player_jump,50,false,0.4,0,random_range(0.8,1.2))	
+		}
+	}
+}
+#endregion
+
 
 

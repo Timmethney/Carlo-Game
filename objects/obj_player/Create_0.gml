@@ -21,7 +21,12 @@ ysp = 0;
 grav = 0.14;
 walksp = 8;
 
+target_score = 0  
+current_score = 0;   
+score_speed = 2;    
+
 bounce_time = 0
+bounce_time_cd = 15
 knockback_timer = 0
 
 dash_energy = 0

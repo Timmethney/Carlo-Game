@@ -78,6 +78,7 @@ switch (state){
 		lastFlash = true
 		lastTime = true
 		flash = 6
+		with (obj_player) target_score += 600
 	}
 	if (scr_animation_end()){
 		image_speed = 0	

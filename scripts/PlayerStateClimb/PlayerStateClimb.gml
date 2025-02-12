@@ -11,9 +11,13 @@ function PlayerStateClimb() {
 
     var move = key_right - key_left;
     ysp = min(ysp + 1, 5);
-
+	if (onAWall){
+		if (!audio_is_playing(snd_player_wallslide)){
+			audio_play_sound(snd_player_wallslide,0.8,false)	
+		}
+	} 
     if (key_jump && onAWall) {
-		bounce_time = 15
+		bounce_time = bounce_time_cd
     }
 
     if (!onAWall || place_meeting(x, y + 10, obj_collisionparent)) {
