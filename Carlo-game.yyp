@@ -117,6 +117,8 @@
     {"id":{"name":"obj_campfire","path":"objects/obj_campfire/obj_campfire.yy",},},
     {"id":{"name":"obj_climbable","path":"objects/obj_climbable/obj_climbable.yy",},},
     {"id":{"name":"obj_collisionparent","path":"objects/obj_collisionparent/obj_collisionparent.yy",},},
+    {"id":{"name":"obj_controls_menu","path":"objects/obj_controls_menu/obj_controls_menu.yy",},},
+    {"id":{"name":"obj_controls","path":"objects/obj_controls/obj_controls.yy",},},
     {"id":{"name":"obj_credits_menu","path":"objects/obj_credits_menu/obj_credits_menu.yy",},},
     {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},},
     {"id":{"name":"obj_damage","path":"objects/obj_damage/obj_damage.yy",},},
@@ -362,8 +364,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"room_test","path":"rooms/room_test/room_test.yy",},},
     {"roomId":{"name":"room_title","path":"rooms/room_title/room_title.yy",},},
+    {"roomId":{"name":"room_test","path":"rooms/room_test/room_test.yy",},},
     {"roomId":{"name":"room_boss_forest","path":"rooms/room_boss_forest/room_boss_forest.yy",},},
     {"roomId":{"name":"room_town","path":"rooms/room_town/room_town.yy",},},
     {"roomId":{"name":"room_corrupted_forest","path":"rooms/room_corrupted_forest/room_corrupted_forest.yy",},},

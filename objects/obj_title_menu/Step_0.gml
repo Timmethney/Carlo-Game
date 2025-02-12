@@ -45,20 +45,22 @@ if (mouse_check_button_pressed(mb_left) && mouseOver) {
             room_goto(room_town);
             audio_play_sound(snd_select, 0, false);
         }
-        if (_mouseHoverLine == 1) {
+		if (_mouseHoverLine == 1){
+			instance_destroy()
+			instance_create_layer(x,y,0,obj_controls)
+			instance_create_layer(x -240, y- 200, 0, obj_goback)
+			audio_play_sound(snd_select, 0, false);
+		}
+        if (_mouseHoverLine == 2) {
             instance_destroy();
             instance_create_layer(x, y, 0, obj_credits);
             instance_create_layer(x - 240, y - 200, 0, obj_goback);
             audio_play_sound(snd_select, 0, false);
         }
-        if (_mouseHoverLine == 2) {
+        if (_mouseHoverLine == 3) {
             audio_play_sound(snd_select, 0, false);
             game_end();
         }
-		if (_mouseHoverLine == 3){
-			audio_play_sound(snd_select, 0, false)
-			room = room_boss_forest
-		}
     }
 }
 
