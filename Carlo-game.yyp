@@ -19,6 +19,7 @@
     {"$GMFolder":"","%Name":"Parents","folderPath":"folders/Objects/Blocks/Parents.yy","name":"Parents","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Objects/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Arachnid","folderPath":"folders/Objects/Enemies/Arachnid.yy","name":"Arachnid","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Acid","folderPath":"folders/Objects/Enemies/Acid.yy","name":"Acid","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Mage","folderPath":"folders/Objects/Enemies/Mage.yy","name":"Mage","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rest","folderPath":"folders/Objects/Enemies/Rest.yy","name":"Rest","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Worm","folderPath":"folders/Objects/Enemies/Worm.yy","name":"Worm","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -98,12 +99,13 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Carlo-game",
   "resources":[
     {"id":{"name":"animShake","path":"animcurves/animShake/animShake.yy",},},
     {"id":{"name":"f_silver","path":"fonts/f_silver/f_silver.yy",},},
+    {"id":{"name":"obj_acid","path":"objects/obj_acid/obj_acid.yy",},},
     {"id":{"name":"obj_arachnid","path":"objects/obj_arachnid/obj_arachnid.yy",},},
     {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
@@ -152,6 +154,7 @@
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},},
     {"id":{"name":"obj_web","path":"objects/obj_web/obj_web.yy",},},
     {"id":{"name":"obj_worm","path":"objects/obj_worm/obj_worm.yy",},},
+    {"id":{"name":"room_boss_corrupted_forest","path":"rooms/room_boss_corrupted_forest/room_boss_corrupted_forest.yy",},},
     {"id":{"name":"room_boss_forest","path":"rooms/room_boss_forest/room_boss_forest.yy",},},
     {"id":{"name":"room_cave","path":"rooms/room_cave/room_cave.yy",},},
     {"id":{"name":"room_corrupted_forest","path":"rooms/room_corrupted_forest/room_corrupted_forest.yy",},},
@@ -374,6 +377,7 @@
     {"roomId":{"name":"room_corrupted_forest","path":"rooms/room_corrupted_forest/room_corrupted_forest.yy",},},
     {"roomId":{"name":"room_cave","path":"rooms/room_cave/room_cave.yy",},},
     {"roomId":{"name":"room_forest","path":"rooms/room_forest/room_forest.yy",},},
+    {"roomId":{"name":"room_boss_corrupted_forest","path":"rooms/room_boss_corrupted_forest/room_boss_corrupted_forest.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
