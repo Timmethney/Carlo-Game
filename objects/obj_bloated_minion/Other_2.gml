@@ -1,0 +1,4 @@
+enum ACIDSPAWNSTATE{
+	free,
+	death
+}

@@ -8,7 +8,6 @@ healthLost = false
 healthTimer = 0
 prevHealth = enemyHealth
 destroyNow = false
-deathTime = 10
 
 collideCount = 0
 collideTimer = 0

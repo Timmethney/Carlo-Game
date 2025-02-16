@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Bloated",
-    "path":"folders/Sprites/Enemy sprites/Bloated.yy",
+    "name":"Attacks",
+    "path":"folders/Sprites/Enemy sprites/Bloated/Boss/Attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

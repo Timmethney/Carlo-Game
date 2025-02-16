@@ -1,6 +1,4 @@
-if ScreenPause(){
-	exit;
-	}
+if ScreenPause(){exit;}
 
 if (instance_exists(obj_arachnid) && global.otherSpiderDeath == true && lastTime = false){
 	instance_destroy()
@@ -80,18 +78,7 @@ switch (state){
 		flash = 6
 		with (obj_player) target_score += 600
 	}
-	if (scr_animation_end()){
-		image_speed = 0	
-	}
-	
-	if (image_speed == 0) deathTime -= 1
-
-	if (deathTime <= 0){
-		image_alpha -= 0.01	
-	}
-	if (image_alpha <= 0) {
-		instance_destroy()
-	}
+	scr_enemyDespawn()
 	break;
 }
 

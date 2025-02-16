@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_acid",
+  "%Name":"obj_bloated",
   "eventList":[],
   "managed":true,
-  "name":"obj_acid",
+  "name":"obj_bloated",
   "overriddenProperties":[],
   "parent":{
-    "name":"Acid",
-    "path":"folders/Objects/Enemies/Acid.yy",
+    "name":"Bloated",
+    "path":"folders/Objects/Enemies/Bloated.yy",
   },
   "parentObjectId":null,
   "persistent":false,
