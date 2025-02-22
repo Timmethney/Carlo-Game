@@ -1,5 +1,15 @@
 if ScreenPause(){exit;}
 
+if (instance_exists(obj_bloated) && global.otherBloatedDeath == true && lastTime = false){
+	instance_destroy()
+}	
+
+if (global.otherBloatedDeath != true){
+	instance_deactivate_object(obj_warp)	
+} else {
+	instance_activate_object(obj_warp)	
+}
+
 if (enemyHealth <= 0){
 	state = BLOATEDSTATE.death	
 }
