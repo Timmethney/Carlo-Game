@@ -1,6 +1,7 @@
 function ArachnidPhase1Shoot(){
+	
 	xsp = 0
-	scr_collision()
+	scr_collision()	
 	sprite_index = spr_arachnid_idle	
 	if (shootCharge > 0) shootCharge--
 	
@@ -13,6 +14,7 @@ function ArachnidPhase1Shoot(){
 		}
 		if (shootCount > random_range(4,7)){
 			state1 = choose(PHASE1.walk, PHASE1.rain)
+			Exclamation()
 			shootCount = 0
 			shootCharge = 90
 		}

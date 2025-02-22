@@ -1,1 +1,3 @@
-global.otherSpiderDeath =undefined
+global.otherSpiderDeath = false
+global.otherBloatedDeath = false
+

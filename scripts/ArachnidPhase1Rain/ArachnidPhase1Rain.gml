@@ -11,14 +11,15 @@ xsp = 0
 			shootCount += 1
 		
 			if (shootCount < _shootCount){
-				for (var i = 0; i < 9; i++){
-					instance_create_layer(0 + i * 220 - random_range(50,200),0,"Enemies", obj_web)
+				for (var i = 0; i < 6; i++){
+					instance_create_layer(0 + i * 330 - random_range(50,200),0,"Enemies", obj_web)
 					obj_web.state = WEBSTATE.rain
 				}
 			}
 		}	
 	}
 	if (shootCount >= _shootCount && !instance_exists(obj_web)){
+		Exclamation()
 		state1 = PHASE1.walk
 		shootCount = 0
 		shootCharge = 60

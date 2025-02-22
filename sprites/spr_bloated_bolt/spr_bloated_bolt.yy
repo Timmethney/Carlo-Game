@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_bloated_bolt",
   "bboxMode":0,
-  "bbox_bottom":7,
+  "bbox_bottom":31,
   "bbox_left":0,
-  "bbox_right":9,
+  "bbox_right":39,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":8,
+  "height":32,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"4ec933d0-b398-4f96-9a0a-761da9410ad1","blendMode":0,"displayName":"default","isLocked":false,"name":"4ec933d0-b398-4f96-9a0a-761da9410ad1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Bloated",
-    "path":"folders/Sprites/Enemy sprites/Bloated.yy",
+    "name":"Attacks",
+    "path":"folders/Sprites/Enemy sprites/Bloated/Boss/Attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":10,
+  "width":40,
 }

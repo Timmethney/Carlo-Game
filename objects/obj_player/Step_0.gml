@@ -53,7 +53,7 @@ var onTheGround = place_meeting(x, y + 1, obj_collisionparent);
 var onAWall = place_meeting(x-5,y,obj_climbable) - place_meeting(x+5,y,obj_climbable)
 
 //Stop attacking after death
-if (state = PlayerState.death){
+if (state == PlayerState.death){
 	with (obj_player_attack){
 		playerDead = true	
 	} 
@@ -114,7 +114,7 @@ switch (state) {
 				    audio_play_sound(snd_player_wallclimb, 6, false,0.6);
 				}
 			}
-		}
+		}	
 #endregion
 	if (knockback_timer > 0){
 		knockback_timer--

@@ -8,3 +8,8 @@ function ScreenPause(){
 		return false
 	}
 }
+//Danger exclamation
+function Exclamation(){
+	audio_play_sound(snd_exclamation,100,false,0.5)
+	instance_create_layer(x,y-100,"Instances",obj_exclamation)
+}
