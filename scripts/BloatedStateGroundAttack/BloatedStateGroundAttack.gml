@@ -3,6 +3,7 @@ function BloatedStateGroundAttack(){
 	if (sprite_index != spr_bloated_ground_attack){
 		sprite_index = spr_bloated_ground_attack
 		image_index = 0
+		Exclamation()
 	}
 
 	if (_index == 2) {

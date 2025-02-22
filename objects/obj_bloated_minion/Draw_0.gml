@@ -1,6 +1,6 @@
 draw_self();
 
-if (flash > 0 && state != SPIDERSTATE.death){
+if (flash > 0 && state != ACIDSPAWNSTATE.death){
 	flash -= 1
 	shader_set(sh_flash);
 	draw_self();

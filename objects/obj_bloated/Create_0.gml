@@ -1,6 +1,6 @@
 scr_enemyVars()
 state = BLOATEDSTATE.free
-enemyHealthMax = 200
+enemyHealthMax = 300
 enemyHealth = enemyHealthMax
 healthLost = false
 healthTimer = 0

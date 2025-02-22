@@ -6,6 +6,7 @@ function BloatedStateMultiThrow(){
 		sprite_index = spr_bloated_multi_throw
 		image_index = 0
 		bulletSpeed = bulletSpeedNormal
+		Exclamation()
 	}
 	if (_index == 4 && attackTime <= 0){
 		direction = playerDir

@@ -24,6 +24,7 @@ function ArachnidPhase1Walk(){
 	image_speed = 1
 	if (collideCount >= random_range(3,5)){
 		state1 = choose(PHASE1.rain, PHASE1.shoot)
+		Exclamation()
 		collideCount = 0
 		shootCount = 0
 		shootCharge = 60

@@ -1,2 +1,2 @@
-global.otherSpiderDeath =undefined
-global.otherBloatedDeath = undefined
+global.otherSpiderDeath = false
+

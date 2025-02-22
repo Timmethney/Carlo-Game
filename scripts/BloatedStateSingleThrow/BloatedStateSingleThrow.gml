@@ -7,6 +7,7 @@ function BloatedStateSingleThrow(){
 		image_index = 0
 		bulletSpeed = bulletSpeedNormal
 		bulletSpeed = bulletSpeed + 10
+		Exclamation()
 	}
 	if (_index == 4 && attackTime <= 0){
 		direction = playerDir
