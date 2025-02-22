@@ -33,4 +33,5 @@ if (dash_energy <= 0) {
 	xsp = 0
 	state = PlayerState.free
 	} 
+	if (xsp != 0) image_xscale = sign(xsp)
 }
