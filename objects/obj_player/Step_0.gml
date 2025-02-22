@@ -140,6 +140,6 @@ if (state != PlayerState.death){
 	}
 }
 #endregion
-show_debug_message(state)
+
 
 

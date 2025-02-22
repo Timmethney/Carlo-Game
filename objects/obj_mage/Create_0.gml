@@ -12,7 +12,6 @@ attackDist = 300
 attackTimer = 0
 attackDone = false
 
-if ScreenPause(){exit}
 bullet = new bul_type();
 bul_type_set_life(bullet,120)
 bul_type_set_sprite(bullet,spr_redfire,1,0)

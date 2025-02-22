@@ -1,6 +1,6 @@
 function ArachnidStateStart(){
 	scr_collision()
-sprite_index = spr_arachnid_idle
+	sprite_index = spr_arachnid_idle
 
 if (scr_animation_end()){
 	state = ARACHNIDSTATE.phase1
