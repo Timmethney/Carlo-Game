@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_hp_bar_lvl1",
-    "path":"sprites/spr_hp_bar_lvl1/spr_hp_bar_lvl1.yy",
+    "name":"spr_hp_bar_lvl2",
+    "path":"sprites/spr_hp_bar_lvl2/spr_hp_bar_lvl2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

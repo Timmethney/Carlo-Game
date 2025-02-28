@@ -77,6 +77,7 @@ switch (state){
 		lastTime = true
 		flash = 6
 		with (obj_player) target_score += 600
+		scr_enemyXP()
 	}
 	scr_enemyDespawn()
 	break;

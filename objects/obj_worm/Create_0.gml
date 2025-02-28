@@ -1,7 +1,8 @@
 state = WORMSTATE.free
 scr_enemyVars()
 
-enemyHealth = 40
+xp = irandom_range(60,90)
+enemyHealth = 30
 xsp = 0
 ysp= 0
 jump = false

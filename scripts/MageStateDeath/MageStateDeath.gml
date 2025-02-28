@@ -13,6 +13,7 @@ function MageStateDeath(){
 			lastTime = true
 			flash = 6
 			with (obj_player) target_score += 150
+			scr_enemyXP()
 		}
 		if (image_index == 2){
 			image_index = 0
