@@ -1,5 +1,9 @@
 //Health bar
-draw_sprite(spr_hp_bar_lvl1,global.playerHealth, hp_bar_x, hp_bar_y)
+if (window_get_fullscreen()){
+draw_sprite(spr_hp_bar_lvl2,global.playerHealth, hp_bar_x, hp_bar_y)
+} else {
+	draw_sprite(spr_hp_bar_lvl1,global.playerHealth, hp_bar_x, hp_bar_y)	
+}
 
 //Draw score
 scr_shorter_camera()
