@@ -5,6 +5,7 @@ enemyHealth = enemyHealthMax
 healthLost = false
 healthTimer = 0
 prevHealth = enemyHealth
+xp = irandom_range(300,400)
 
 attackTime = 0
 recuperateTime = 0

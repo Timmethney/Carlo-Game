@@ -18,7 +18,7 @@ function MageStateAttack(){
 		if (_index == 3){
 			if (attackDone == false){
 				attackDone = true
-				attackTimer = 30
+				attackTimer = 120
 				direction = playerDir
 				bul_type_create(bullet,x,y,direction,bulletSpeed)
 			}

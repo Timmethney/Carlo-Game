@@ -8,6 +8,7 @@ healthLost = false
 healthTimer = 0
 prevHealth = enemyHealth
 destroyNow = false
+xp = irandom_range(150,200)
 
 collideCount = 0
 collideTimer = 0
