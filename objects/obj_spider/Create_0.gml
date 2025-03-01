@@ -1,7 +1,7 @@
 state = SPIDERSTATE.free
 enemyHealth = 40
 damageAmount = 0
-xp = irandom_range(60,90)
+xp = irandom_range(50,60)
 
 xsp = choose(3,-3)
 ysp = 0
