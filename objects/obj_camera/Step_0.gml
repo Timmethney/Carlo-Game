@@ -59,3 +59,16 @@ if (layer_exists("Corrupted_trees2")){
 if (layer_exists("Corrupted_trees3")){
 	layer_x("Corrupted_trees3", camX/6)
 }
+//Cave
+if (layer_exists("Cave3")){
+	layer_x("Cave3", camX/4)
+}
+if (layer_exists("Cave4")){
+	layer_x("Cave4", camX/5)
+}
+if (layer_exists("Cave5")){
+	layer_x("Cave5", camX/6)
+}
+if (layer_exists("Cave6")){
+	layer_x("Cave6", camX/8)
+}
