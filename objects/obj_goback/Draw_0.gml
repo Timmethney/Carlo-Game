@@ -5,7 +5,7 @@ draw_set_font(f_silver)
 // Check if the mouse is within the sprite bounds
 if (turnWhite = true) {
     draw_set_color(c_white); // Highlight color
-	
+	if (room == room_title){
 	if (mouse_check_button_pressed(mb_left)){
 		audio_play_sound(snd_select,0,false)
 		instance_destroy()
@@ -20,6 +20,17 @@ if (turnWhite = true) {
 			}
 		}
 		instance_create_layer(room_width / 2 - 45, room_height / 2 + 50, 0,obj_menu)
+	}  
+	}
+	if (room == room_skill_tree){
+		if (mouse_check_button_pressed(mb_left)){
+			instance_destroy()
+			with (obj_player){
+				room = global.checkpointR
+				x = global.checkpointX
+				y = global.checkpointY
+			}
+		}
 	}
 } else {
     draw_set_color(c_gray); // Default color

@@ -22,7 +22,7 @@ if (mouse_check_button_pressed(mb_left) && mouseOver){
 	if (mouse_check_button_pressed(mb_left)){
 		//Change options goto
 		var _mouseHoverLine = (mouse_y - y) div heightLine;
-		if (_mouseHoverLine == 0) room_goto(room_test)
+		if (_mouseHoverLine == 0) room_goto(room_skill_tree)
 		if (_mouseHoverLine == 4) game_end()
 	}
 

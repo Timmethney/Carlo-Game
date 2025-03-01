@@ -7,8 +7,6 @@ global.checkpointR = 3;
 global.checkpointX = 0;
 global.checkpointY = 0;
 
-global.playerHealth = 4
-global.playerHealth_max = 4
 death_time = 120
 death_time_start = false
 hp_bar_x = 10

@@ -1,8 +1,12 @@
 //Health bar
-if (window_get_fullscreen()){
-draw_sprite(spr_hp_bar_lvl2,global.playerHealth, hp_bar_x, hp_bar_y)
-} else {
-	draw_sprite(spr_hp_bar_lvl1,global.playerHealth, hp_bar_x, hp_bar_y)	
+if (global.skillHealth == 0){
+	draw_sprite(spr_hp_bar_lvl1,global.playerHealth, hp_bar_x, hp_bar_y)
+} else if (global.skillHealth == 1) {
+	draw_sprite(spr_hp_bar_lvl2,global.playerHealth, hp_bar_x, hp_bar_y)	
+} else if (global.skillHealth == 2){
+	draw_sprite(spr_hp_bar_lvl3,global.playerHealth,hp_bar_x,hp_bar_y)	
+} else if (global.skillHealth == 3){
+	draw_sprite(spr_hp_bar_lvl4,global.playerHealth,hp_bar_x,hp_bar_y)	
 }
 
 //Draw score

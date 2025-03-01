@@ -29,5 +29,4 @@ if (doSit == true){
 	if (global.inMenu == true && onTheGround){
 		if (!instance_exists(obj_campfire_menu)) instance_create_layer(x,y,"Instances",obj_camp_menu)
 	}
-	show_debug_message(global.inMenu)
 }

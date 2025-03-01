@@ -87,4 +87,5 @@ if (downward_timer > 0) downward_timer -= 1
 if (key_attack && key_down && attack_timer <= 0 && global.inAir && downward_timer <= 0 ){
 	state = PlayerState.downward_attack
 }
+
 }
