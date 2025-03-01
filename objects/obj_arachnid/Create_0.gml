@@ -2,7 +2,7 @@ scr_enemyVars()
 state = ARACHNIDSTATE.start
 state1 = PHASE1.rain
 state2 = PHASE2.climb
-enemyHealthMax = 200
+enemyHealthMax = 250
 enemyHealth = enemyHealthMax
 healthLost = false
 healthTimer = 0

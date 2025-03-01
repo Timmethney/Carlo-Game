@@ -165,6 +165,7 @@
     {"name":"snd_player_wallslide","order":9,"path":"sounds/snd_player_wallslide/snd_player_wallslide.yy",},
     {"name":"snd_score","order":6,"path":"sounds/snd_score/snd_score.yy",},
     {"name":"snd_select","order":3,"path":"sounds/snd_select/snd_select.yy",},
+    {"name":"snd_skill_tree","order":5,"path":"sounds/snd_skill_tree/snd_skill_tree.yy",},
     {"name":"snd_spider_fight","order":1,"path":"sounds/snd_spider_fight/snd_spider_fight.yy",},
     {"name":"spr_acid_spawn_death","order":1,"path":"sprites/spr_acid_spawn_death/spr_acid_spawn_death.yy",},
     {"name":"spr_acid_spawn_idle","order":2,"path":"sprites/spr_acid_spawn_idle/spr_acid_spawn_idle.yy",},

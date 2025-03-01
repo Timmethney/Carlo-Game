@@ -12,13 +12,14 @@ function MageStateAttack(){
 	}
 	if (attackTimer <= 0){
 		if (sprite_index != spr_redmage_attack){
+			image_index = 0
 			sprite_index = spr_redmage_attack	
 			image_xscale = sign(playerDirGen)
 		}
 		if (_index == 3){
 			if (attackDone == false){
 				attackDone = true
-				attackTimer = 120
+				attackTimer = 80
 				direction = playerDir
 				bul_type_create(bullet,x,y,direction,bulletSpeed)
 			}
@@ -27,5 +28,6 @@ function MageStateAttack(){
 
 	if (scr_animation_end()){
 		state = MAGESTATE.free	
+		sprite_index = spr_redmage_idle
 	}
 }

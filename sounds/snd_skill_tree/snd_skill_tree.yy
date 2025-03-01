@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_cave",
+  "%Name":"snd_skill_tree",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":135.88898,
-  "name":"snd_cave",
+  "duration":179.33061,
+  "name":"snd_skill_tree",
   "parent":{
     "name":"Soundtracks",
     "path":"folders/Sounds/Soundtracks.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_cave.mp3",
+  "soundFile":"snd_skill_tree.mp3",
   "type":0,
-  "volume":0.52,
+  "volume":0.41,
 }

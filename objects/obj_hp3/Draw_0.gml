@@ -14,6 +14,5 @@ draw_sprite(spr_skill_health,0,x,y);
 	}
 if (instance_position(mouse_x,mouse_y,all) == id){
 	depth = -1000
-	draw_set_halign(fa_center)
 	draw_text(x,y,"Increase Health by 1")	
 }

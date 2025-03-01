@@ -140,6 +140,9 @@ if (state != PlayerState.death){
 	}
 }
 #endregion
+if (room == room_skill_tree){
+	x = -10000
+}	
 
 
 
