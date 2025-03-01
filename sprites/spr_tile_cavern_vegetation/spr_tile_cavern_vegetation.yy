@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_tile_cavern_vegetation",
   "bboxMode":0,
-  "bbox_bottom":63,
+  "bbox_bottom":255,
   "bbox_left":0,
-  "bbox_right":127,
+  "bbox_right":511,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":256,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"b5faa034-5d64-4fcf-b04b-8200bdfb5da8","blendMode":0,"displayName":"default","isLocked":false,"name":"b5faa034-5d64-4fcf-b04b-8200bdfb5da8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":128,
+  "width":512,
 }
