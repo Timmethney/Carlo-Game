@@ -12,8 +12,8 @@
   "duration":0.914286,
   "name":"snd_exclamation",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Enemies",
+    "path":"folders/Sounds/Enemies.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

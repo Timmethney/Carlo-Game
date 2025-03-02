@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_bulletSystem",
+  "%Name":"Dialogue",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_bulletSystem",
+  "name":"Dialogue",
   "parent":{
-    "name":"Enemy scripts",
-    "path":"folders/Scripts/Enemy scripts.yy",
+    "name":"Miscellaneous",
+    "path":"folders/Scripts/Miscellaneous.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
