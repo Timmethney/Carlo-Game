@@ -1,1 +1,1 @@
-if (global.beenHit == false && state != ACIDSPAWNSTATE.death) global.beenHit = true
+if (global.beenHit == false) global.beenHit = true

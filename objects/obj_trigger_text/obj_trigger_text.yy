@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_text_box",
+  "%Name":"obj_trigger_text",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_text_box",
+  "name":"obj_trigger_text",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game",
-    "path":"folders/Objects/Game.yy",
+    "name":"Blocks",
+    "path":"folders/Objects/Blocks.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_trigger_text",
+    "path":"sprites/spr_trigger_text/spr_trigger_text.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

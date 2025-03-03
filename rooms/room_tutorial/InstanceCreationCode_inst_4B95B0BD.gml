@@ -1,0 +1,1 @@
+text = "Use D + DOWN ARROW to bounce."

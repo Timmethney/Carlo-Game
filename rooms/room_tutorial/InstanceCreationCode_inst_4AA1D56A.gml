@@ -1,0 +1,1 @@
+text = "SPACE against a wall to WALLCLIMB"

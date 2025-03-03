@@ -3,5 +3,6 @@ enum ATTACKSTATE {
 	attack,
 	combo,
 	upward,
-	downward
+	downward,
+	dialogue
 }
