@@ -36,6 +36,7 @@ camY += y_offset;
 cam_pos(camX, camY);
 
 //Parallax backgrounds
+
 //Forest
 if (layer_exists("Trees1")){
 	layer_x("Trees1", camX/5)

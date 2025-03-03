@@ -1,0 +1,1 @@
+text = "They are in the next room. Defeat them and bring my son back! Good luck."

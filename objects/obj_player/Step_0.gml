@@ -1,6 +1,10 @@
 //Player inputs
 scr_player_inputs()
 
+//Dialogue State
+if (instance_exists(obj_text_box)){
+	state = PlayerState.dialogue	
+}
 #region // Score
 if (current_score < target_score) {
     current_score += score_speed;
@@ -98,6 +102,13 @@ switch (state) {
 		break;
 	case PlayerState.death:
 		PlayerStateDeath()
+		break;
+	case PlayerState.dialogue:
+		xsp = 0
+		sprite_index = spr_player_idle
+		if (!instance_exists(obj_text_box)){
+			state = PlayerState.free	
+		}
 		break;
 } 
 #endregion

@@ -33,7 +33,7 @@ prevHealth = enemyHealth
 
 var playerDir = sign(x-obj_player.x)
 mask_index = spr_bloated_idle
-image_xscale = playerDir
+if (state != BLOATEDSTATE.death) image_xscale = playerDir
 
 switch(state){
 	case BLOATEDSTATE.free:

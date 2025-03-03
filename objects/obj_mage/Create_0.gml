@@ -1,7 +1,7 @@
 scr_enemyVars()
 state = MAGESTATE.free
 enemyHealth = 60
-xp = irandom_range(80,100)
+xp = irandom_range(70,80)
 
 xsp = 0
 ysp = 0
