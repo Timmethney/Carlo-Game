@@ -58,6 +58,7 @@
     {"name":"inst_13ED1B60","path":"rooms/room_tutorial/room_tutorial.yy",},
     {"name":"inst_3B474470","path":"rooms/room_tutorial/room_tutorial.yy",},
     {"name":"inst_21DDC79B","path":"rooms/room_tutorial/room_tutorial.yy",},
+    {"name":"inst_7BE0129B","path":"rooms/room_tutorial/room_tutorial.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -83,6 +84,7 @@
         {"$GMRInstance":"v1","%Name":"inst_6177E2B4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6177E2B4","objectId":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1448.0,"y":1922.0,},
         {"$GMRInstance":"v1","%Name":"inst_8F2C9FE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_8F2C9FE","objectId":{"name":"obj_sound","path":"objects/obj_sound/obj_sound.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1516.0,"y":1990.0,},
         {"$GMRInstance":"v1","%Name":"inst_472606DA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_472606DA","objectId":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1481.0,"y":1940.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7BE0129B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7BE0129B","objectId":{"name":"obj_xp_controller","path":"objects/obj_xp_controller/obj_xp_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1434.0,"y":1938.0,},
       ],"layers":[
         {"$GMRInstanceLayer":"","%Name":"Enemies","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
             {"$GMRInstance":"v1","%Name":"inst_61F5F7FB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_61F5F7FB","objectId":{"name":"obj_gary_the_wizard","path":"objects/obj_gary_the_wizard/obj_gary_the_wizard.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":1297.0,"y":2167.0,},

@@ -1,1 +1,1 @@
-text = "They are in the next room. Defeat them and bring my son back! Good luck."
+text = ["The leader is in the next room. Defeat him and bring my son back! Good luck."]

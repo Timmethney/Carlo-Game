@@ -1,1 +1,1 @@
-text = "Good job getting through there"
+text = ["Good job getting through there"]
