@@ -1,1 +1,1 @@
-text = "There is some type of acid guardian here, be careful his minions damage you even after death."
+text = ["There is some type of acid guardian here, be careful his minions damage you even after death."]

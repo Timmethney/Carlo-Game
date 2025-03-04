@@ -52,17 +52,23 @@ if (room == room_title) {
 		audio_play_sound(snd_skill_tree,0,true,.4)
 		current_sound = snd_skill_tree
 	}
-} else if (room == room_cave){
+} else if (room == room_cave || room = room_tutorial){
 	if (current_sound != snd_cave){
 		audio_stop_all()
 		audio_play_sound(snd_cave,0,true,.5)
 		current_sound = snd_cave
 	}
 } else if (room == room_boss_corrupted_forest){
-	if (current_sound != snd_final_fight){
+	if (current_sound != snd_bloated_fight){
 		audio_stop_all()
-		audio_play_sound(snd_final_fight,0,true,.3)
-		current_sound = snd_final_fight
+		audio_play_sound(snd_bloated_fight,0,true,.3)
+		current_sound = snd_bloated_fight
+	}
+} else if (room == room_boss_cave){
+	if (current_sound != snd_cultist_fight){
+		audio_stop_all()
+		audio_play_sound(snd_cultist_fight,0,true,.6)
+		current_sound = snd_cultist_fight
 	}
 }
 #endregion

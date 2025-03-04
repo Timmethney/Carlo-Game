@@ -1,1 +1,1 @@
-text = "Good job defeating those guardians. Jump down here, this is where their hideout is located at."
+text = ["Good job defeating those guardians. Jump down here, this is where their hideout is located at."]

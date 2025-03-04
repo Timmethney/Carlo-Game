@@ -1,4 +1,4 @@
-mouseOver = false;
+var mouseOver = false;
 
 if (point_in_rectangle(mouse_x, mouse_y, x, y, x + width, y + height)) {
     mouseOver = true;
@@ -42,7 +42,7 @@ if (mouse_check_button_pressed(mb_left) && mouseOver) {
         var _mouseHoverLine = (mouse_y - y) div heightLine;
 
         if (_mouseHoverLine == 0) {
-            room_goto(room_town);
+            room_goto(room_tutorial);
             audio_play_sound(snd_select, 0, false);
         }
 		if (_mouseHoverLine == 1){
