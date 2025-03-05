@@ -46,7 +46,7 @@ if (room == room_title) {
 		audio_play_sound(snd_forest,0,true,0.15)
 		current_sound = snd_forest
 	}
-} else if (room == room_skill_tree){
+} else if (room == room_skill_tree || room == room_credits){
 	if (current_sound != snd_skill_tree){
 		audio_stop_all()
 		audio_play_sound(snd_skill_tree,0,true,.4)
