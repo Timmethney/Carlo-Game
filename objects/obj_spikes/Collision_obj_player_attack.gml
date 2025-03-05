@@ -2,7 +2,7 @@ if (obj_player_attack.state == ATTACKSTATE.downward){
 	if (bounceTime <= 0){
 		if (audioTime  <= 0){
 			audio_play_sound(snd_bounce_spike,10,false,0.7)
-			audioTime = 30
+			audioTime = 40
 		}	
 
 		bounceTime = 30

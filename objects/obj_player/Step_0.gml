@@ -106,10 +106,25 @@ switch (state) {
 	case PlayerState.dialogue:
 		xsp = 0
 		sprite_index = spr_player_idle
-		if (!instance_exists(obj_text_box)){
+		if (!instance_exists(obj_text_box) && room != room_end){
 			state = PlayerState.free	
-		}
+		} else if (!instance_exists(obj_text_box) && room == room_end){
+			state = PlayerState.dialogueEnd
+		}	
 		break;
+	case PlayerState.dialogueEnd:
+		xsp = 0
+		sprite_index= spr_player_idle
+		if (creditsOn == true){
+			room = room_credits
+			x = -2000
+			y = -2000
+			state = PlayerState.dialogue
+		}
+		if (!instance_exists(obj_fade)){
+			instance_create_depth(0,0,-100000,obj_fade)
+			creditsOn = true
+		}	
 } 
 #endregion
 

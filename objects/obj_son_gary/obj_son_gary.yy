@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spikes",
+  "%Name":"obj_son_gary",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player_attack","path":"objects/obj_player_attack/obj_player_attack.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_spikes",
+  "name":"obj_son_gary",
   "overriddenProperties":[],
   "parent":{
-    "name":"Blocks",
-    "path":"folders/Objects/Blocks.yy",
+    "name":"NPC",
+    "path":"folders/Objects/NPC.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_spikes",
-    "path":"sprites/spr_spikes/spr_spikes.yy",
+    "name":"spr_son_gary",
+    "path":"sprites/spr_son_gary/spr_son_gary.yy",
   },
   "spriteMaskId":null,
   "visible":true,

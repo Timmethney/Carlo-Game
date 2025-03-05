@@ -7,6 +7,7 @@ function PCPhase2Death(){
 
 	if (!onGround){
 		if (sprite_index != spr_purplemage_death){ 
+			global.otherCultistDeath = true
 			sprite_index = spr_purplemage_death
 			image_index = 0	
 			lastFlash = true
