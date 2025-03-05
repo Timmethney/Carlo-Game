@@ -1,5 +1,6 @@
 global.otherSpiderDeath = false
 global.otherBloatedDeath = false
+global.otherCultistDeath = false
 
 global.playerHealth = 4
 global.playerHealth_max = 4

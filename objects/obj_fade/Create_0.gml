@@ -1,5 +1,5 @@
-image_xscale *= 1000
-image_yscale *=1000
+image_xscale *= 10000
+image_yscale *=10000
 
 fade_speed = .01
 

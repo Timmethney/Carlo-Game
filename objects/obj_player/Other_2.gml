@@ -8,6 +8,7 @@ enum PlayerState{
 	upward_attack,
 	downward_attack,
 	death,
-	dialogue
+	dialogue,
+	dialogueEnd
 }
 

@@ -1,4 +1,14 @@
 if ScreenPause(){exit;}
+
+if (instance_exists(obj_arachnid) && global.otherCultistDeath == true && lastTime = false){
+	instance_destroy()
+}	
+
+if (global.otherCultistDeath != true){
+	instance_deactivate_object(obj_warp)	
+} else {
+	instance_activate_object(obj_warp)	
+}
 //Health lost
 if (enemyHealth < prevHealth){
 	healthLost = true	
@@ -106,4 +116,3 @@ switch (phase){
 		break;
 	}	
 }
-show_debug_message(string(state) + string(phase))

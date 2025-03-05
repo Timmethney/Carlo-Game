@@ -44,3 +44,4 @@ doneAttack = false
 attack_timer = 0
 downward_timer = 0
 
+creditsOn = false

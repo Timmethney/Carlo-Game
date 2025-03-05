@@ -1,0 +1,1 @@
+text = "Final Score:   " + string(obj_player.current_score)
