@@ -211,6 +211,7 @@
     {"id":{"name":"room_end","path":"rooms/room_end/room_end.yy",},},
     {"id":{"name":"room_forest_to_cave","path":"rooms/room_forest_to_cave/room_forest_to_cave.yy",},},
     {"id":{"name":"room_forest","path":"rooms/room_forest/room_forest.yy",},},
+    {"id":{"name":"room_game_info","path":"rooms/room_game_info/room_game_info.yy",},},
     {"id":{"name":"room_skill_tree","path":"rooms/room_skill_tree/room_skill_tree.yy",},},
     {"id":{"name":"room_test","path":"rooms/room_test/room_test.yy",},},
     {"id":{"name":"room_title","path":"rooms/room_title/room_title.yy",},},
@@ -480,6 +481,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"room_title","path":"rooms/room_title/room_title.yy",},},
+    {"roomId":{"name":"room_game_info","path":"rooms/room_game_info/room_game_info.yy",},},
     {"roomId":{"name":"room_cheats","path":"rooms/room_cheats/room_cheats.yy",},},
     {"roomId":{"name":"room_cave","path":"rooms/room_cave/room_cave.yy",},},
     {"roomId":{"name":"room_end","path":"rooms/room_end/room_end.yy",},},

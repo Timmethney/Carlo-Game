@@ -22,7 +22,7 @@ if (turnWhite = true) {
 		instance_create_layer(room_width / 2 - 45, room_height / 2 + 50, 0,obj_menu)
 	}  
 	}
-	if (room == room_skill_tree){
+	if (room == room_skill_tree || room == room_cheats|| room == room_game_info){
 		if (mouse_check_button_pressed(mb_left)){
 			instance_destroy()
 			with (obj_player){
@@ -32,16 +32,7 @@ if (turnWhite = true) {
 			}
 		}
 	}
-	if (room == room_cheats){
-		if (mouse_check_button_pressed(mb_left)){
-			instance_destroy()
-			with (obj_player){
-				room = global.checkpointR
-				x = global.checkpointX
-				y = global.checkpointY
-			}
-		}
-	}
+
 } else {
     draw_set_color(c_gray); // Default color
 }
