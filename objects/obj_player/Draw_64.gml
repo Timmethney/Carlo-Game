@@ -1,4 +1,4 @@
-if (room != room_credits){
+if (room != room_credits && room != room_game_info && room != room_cheats){
 //Health bar
 if (global.skillHealth == 0){
 	draw_sprite(spr_hp_bar_lvl1,global.playerHealth, hp_bar_x, hp_bar_y)

@@ -1,1 +1,1 @@
-text = "Use D + DOWN ARROW to bounce."
+text = "Use D + DOWN ARROW to bounce on spikes."

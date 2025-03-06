@@ -3,6 +3,8 @@ function PlayerStateDeath(){
 		image_index = 0
 		image_speed = 1
 		sprite_index  = spr_player_death
+		current_score -= 50	
+		target_score -= 50
 	}
 	
 	//Vertical Collision

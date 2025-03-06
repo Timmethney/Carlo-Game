@@ -43,6 +43,7 @@ if (mouse_check_button_pressed(mb_left) && mouseOver) {
 
         if (_mouseHoverLine == 0) {
             room_goto(room_tutorial);
+			instance_create_depth(0,0,-999,obj_fade)
             audio_play_sound(snd_select, 0, false);
         }
 		if (_mouseHoverLine == 1){

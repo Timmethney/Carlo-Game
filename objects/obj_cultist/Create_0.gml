@@ -5,7 +5,7 @@ speed = 0
 scr_enemyVars()
 xp = irandom_range(300,500)
 
-enemyHealthMax = 800
+enemyHealthMax = 1000
 enemyHealth = enemyHealthMax
 movesp = 8
 ysp = 0

@@ -62,6 +62,7 @@ if (state == PlayerState.death){
 	}
 
 //Cheat menu
+if (room != room_game_info && room != room_credits && room != room_cheats){
 	if (keyboard_check_pressed(ord("N")) && !instance_exists(obj_cheat_menu)){
 		if (instance_exists(obj_level)){
 			instance_destroy(obj_level)	
@@ -71,6 +72,16 @@ if (state == PlayerState.death){
 	else if (keyboard_check_pressed(ord("N")) && instance_exists(obj_cheat_menu)){
 		instance_destroy(obj_cheat_menu)	
 	}
+}
+//Game information
+if (room != room_credits && room != room_cheats && room != room_game_info){
+	if (keyboard_check_pressed(vk_f1)){
+		global.checkpointR = room
+		global.checkpointX = x 
+		global.checkpointY = y
+		room = room_game_info	
+	}
+}
 		
 		
 #region //Player states
@@ -174,7 +185,7 @@ if (state != PlayerState.death){
 	}
 }
 #endregion
-if (room == room_skill_tree || room == room_cheats){
+if (room == room_skill_tree || room == room_cheats || room == room_game_info){
 	x = -10000
 }	
 
