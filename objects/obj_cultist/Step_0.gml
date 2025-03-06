@@ -1,6 +1,6 @@
 if ScreenPause(){exit;}
 
-if (instance_exists(obj_arachnid) && global.otherCultistDeath == true && lastTime = false){
+if (instance_exists(obj_cultist) && global.otherCultistDeath == true && lastTime = false){
 	instance_destroy()
 }	
 

@@ -22,3 +22,6 @@ for (var l = 0; l < (optionsCount + _desc); l++){
 
 mxPrev = mouse_x
 myPrev = mouse_y
+draw_set_color(c_white)
+draw_set_halign(fa_right)
+draw_set_valign(fa_middle)

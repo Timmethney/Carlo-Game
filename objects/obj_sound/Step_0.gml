@@ -19,26 +19,26 @@ wallslide = 1 V
 if (keyboard_check_pressed(ord("M"))) {
     if (muteMusic == false) {
         muteMusic = true;
-        audio_sound_gain(current_sound,0,0); // Mute all audio
+        audio_sound_gain(current_sound,0,0); // Mute 
     } else {
         muteMusic = false;
-        audio_sound_gain(current_sound,.15,0); // Restore full volume
+        audio_sound_gain(current_sound,.15,0); // Restore 
     }
 }
 #endregion
 
 #region//Soundtracks
 if (room == room_title) {
-    if (current_sound != snd_main_menu) { // Check if the sound isn't already playing
-        audio_stop_all(); // Stop any other sounds
-        audio_play_sound(snd_main_menu, 0, true); // Play the new sound
-        current_sound = snd_main_menu; // Set it as the currently playing sound
+    if (current_sound != snd_main_menu) { 
+        audio_stop_all(); 
+        audio_play_sound(snd_main_menu, 0, true); 
+        current_sound = snd_main_menu; 
     }
 } else if (room == room_boss_forest) {
-    if (current_sound != snd_spider_fight) { // Check if the sound isn't already playing
-        audio_stop_all(); // Stop any other sounds
-        audio_play_sound(snd_spider_fight, 0, true); // Play the new sound
-        current_sound = snd_spider_fight; // Set it as the currently playing sound
+    if (current_sound != snd_spider_fight) {
+        audio_stop_all(); 
+        audio_play_sound(snd_spider_fight, 0, true); 
+        current_sound = snd_spider_fight; 
     }
 } else if (room == room_town || room == room_forest || room == room_corrupted_forest || room == room_forest_to_cave){
 	if (current_sound != snd_forest){
@@ -46,13 +46,13 @@ if (room == room_title) {
 		audio_play_sound(snd_forest,0,true,0.15)
 		current_sound = snd_forest
 	}
-} else if (room == room_skill_tree || room == room_credits){
+} else if (room == room_skill_tree || room == room_credits || room == room_cheats){
 	if (current_sound != snd_skill_tree){
 		audio_stop_all()
 		audio_play_sound(snd_skill_tree,0,true,.4)
 		current_sound = snd_skill_tree
 	}
-} else if (room == room_cave || room = room_tutorial){
+} else if (room == room_cave || room = room_tutorial || room == room_end){
 	if (current_sound != snd_cave){
 		audio_stop_all()
 		audio_play_sound(snd_cave,0,true,.5)

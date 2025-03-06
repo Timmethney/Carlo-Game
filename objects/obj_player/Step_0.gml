@@ -60,7 +60,19 @@ if (state == PlayerState.death){
 			playerDead = false	
 		}
 	}
-	
+
+//Cheat menu
+	if (keyboard_check_pressed(ord("N")) && !instance_exists(obj_cheat_menu)){
+		if (instance_exists(obj_level)){
+			instance_destroy(obj_level)	
+		}
+		instance_create_depth(x,y,-999,obj_cheat)	
+	}
+	else if (keyboard_check_pressed(ord("N")) && instance_exists(obj_cheat_menu)){
+		instance_destroy(obj_cheat_menu)	
+	}
+		
+		
 #region //Player states
 switch (state) {
     case PlayerState.free:
@@ -99,11 +111,13 @@ switch (state) {
 		break;
 	case PlayerState.dialogue:
 		xsp = 0
-		sprite_index = spr_player_idle
+		image_speed = 0
 		if (!instance_exists(obj_text_box) && room != room_end){
 			state = PlayerState.free	
+			image_speed = 1
 		} else if (!instance_exists(obj_text_box) && room == room_end){
 			state = PlayerState.dialogueEnd
+			image_speed = 1
 		}	
 		break;
 	case PlayerState.dialogueEnd:
@@ -160,9 +174,35 @@ if (state != PlayerState.death){
 	}
 }
 #endregion
-if (room == room_skill_tree){
+if (room == room_skill_tree || room == room_cheats){
 	x = -10000
 }	
+
+//Cheats
+//Inf dash
+if (global.cheatInfDash){
+	can_dash =true
+}
+//Inf dmg
+if (global.cheatInfDamage) {
+    global.attackDamage = 1000;
+} 
+//High dmg
+else if (global.cheatHighDamage) { 
+    global.attackDamage = 100;
+} 
+else {
+    global.attackDamage = global.attackDamageNormal;
+}
+//Max skill points
+if (global.cheatMaxSkillPoints){
+	global.skillPoints = 8	
+}
+//Invincibility
+if (global.cheatInvincibility){
+	invincibility = 2	
+	global.playerHealth = global.playerHealth_max
+}
 
 
 
