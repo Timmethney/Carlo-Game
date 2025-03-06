@@ -1,0 +1,1 @@
+maxSkillPoints = true

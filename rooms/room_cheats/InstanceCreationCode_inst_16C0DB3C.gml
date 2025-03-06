@@ -1,0 +1,1 @@
+text = "(Unable to receive damage from any source)"
