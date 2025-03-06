@@ -20,3 +20,6 @@ for (var l = 0; l < (optionsCount + _desc); l++){
 		draw_text (x, y + l * heightLine, _str);
 	}
 }
+draw_set_color(c_white)
+draw_set_halign(fa_right)
+draw_set_valign(fa_middle)

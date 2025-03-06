@@ -32,6 +32,16 @@ if (turnWhite = true) {
 			}
 		}
 	}
+	if (room == room_cheats){
+		if (mouse_check_button_pressed(mb_left)){
+			instance_destroy()
+			with (obj_player){
+				room = global.checkpointR
+				x = global.checkpointX
+				y = global.checkpointY
+			}
+		}
+	}
 } else {
     draw_set_color(c_gray); // Default color
 }
@@ -39,4 +49,7 @@ draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
 
 draw_text (x,y, "Go Back")
+draw_set_color(c_white)
+draw_set_halign(fa_right)
+draw_set_valign(fa_middle)
 

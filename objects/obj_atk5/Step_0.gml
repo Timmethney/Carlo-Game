@@ -3,7 +3,7 @@ if (mouse_check_button_pressed(mb_left) && instance_position(mouse_x,mouse_y,all
 	if (global.skillAtk == 4 && global.skillPoints > 0)
 	{
 	global.skillAtk ++;
-	global.attackDamage += 4;
+	global.attackDamageNormal += 4;
 	
 	global.skillPoints --;
 	}

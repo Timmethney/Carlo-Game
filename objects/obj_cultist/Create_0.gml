@@ -31,14 +31,14 @@ bul_type_set_sprite(bullet1,spr_bluefire,1,0)
 bulletSpeed = 5
 
 bullet2 = new bul_type()
-bul_type_set_life(bullet2,180)
+bul_type_set_life(bullet2,120)
 bul_type_set_sprite(bullet2,spr_bluefire,1,0)
 
 bullet3 = new bul_type()
 bul_type_set_sprite(bullet3,spr_purplefire,1,0)
 
 bullet4 = new bul_type()
-bul_type_set_life(bullet4,180)
+bul_type_set_life(bullet4,120)
 bul_type_set_sprite(bullet4,spr_purplefire,1,0)
 
 bullet5 = new bul_type()
