@@ -10,10 +10,10 @@ room_height / 2 - 60,
 ["D - Attack"],
 ["Shift - Dash"],
 ["E - Interact"],
+["F1 - Game Information"],
 ["F11 - Toggle Fullscreen"],
 ["ESC - Pause Game"],
 ["M - Mute music"],
-["Debugging: T - +Health Y - -Health"],
-["R - Restart Game"]
+["N - Cheat Menu"]
 ]
 )

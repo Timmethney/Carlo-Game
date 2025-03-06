@@ -1,6 +1,4 @@
 function scr_player_health(){
-	if (keyboard_check_pressed(ord("Y"))) global.playerHealth -= 1
-	if (keyboard_check_pressed(ord("T"))) global.playerHealth += 1;
 	if (global.playerHealth <= 0){
 		global.playerHealth = 0
 		state = PlayerState.death

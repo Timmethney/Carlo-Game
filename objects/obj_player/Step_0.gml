@@ -40,12 +40,6 @@ if (key_pause){
 //Screen pause
 if ScreenPause(){exit;}
 
-//Player camera
-if keyboard_check_pressed(ord("F")) {
-	with(obj_camera){
-		shakeCamera(50)
-	}}
-
 //Health
 scr_player_health()
 
